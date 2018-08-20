@@ -9,17 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var version: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
+    var nameText = ""
+    
+    @IBAction func search(_ sender: Any) {
+        self.nameText = textField.text!
+        performSegue(withIdentifier: "name", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        version.text = "Beta v1.0.0"
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var vc = segue.destination as! StructViewController
+        vc.finalName = self.nameText
     }
-
 
 }
 

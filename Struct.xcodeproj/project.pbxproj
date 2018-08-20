@@ -13,6 +13,7 @@
 		3675FC982129ACB5001402F3 /* Struct.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3675FC962129ACB5001402F3 /* Struct.xcdatamodeld */; };
 		3675FC9A2129ACB6001402F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3675FC992129ACB6001402F3 /* Assets.xcassets */; };
 		3675FC9D2129ACB6001402F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3675FC9B2129ACB6001402F3 /* LaunchScreen.storyboard */; };
+		3675FCA52129B6D6001402F3 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675FCA42129B6D6001402F3 /* StructViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3675FC992129ACB6001402F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3675FC9C2129ACB6001402F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3675FC9E2129ACB6001402F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3675FCA42129B6D6001402F3 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3675FC8F2129ACB5001402F3 /* AppDelegate.swift */,
 				3675FC912129ACB5001402F3 /* ViewController.swift */,
+				3675FCA42129B6D6001402F3 /* StructViewController.swift */,
 				3675FC932129ACB5001402F3 /* Main.storyboard */,
 				3675FC992129ACB6001402F3 /* Assets.xcassets */,
 				3675FC9B2129ACB6001402F3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3675FC922129ACB5001402F3 /* ViewController.swift in Sources */,
+				3675FCA52129B6D6001402F3 /* StructViewController.swift in Sources */,
 				3675FC902129ACB5001402F3 /* AppDelegate.swift in Sources */,
 				3675FC982129ACB5001402F3 /* Struct.xcdatamodeld in Sources */,
 			);
