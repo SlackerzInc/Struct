@@ -23,30 +23,22 @@ class StructViewController: UIViewController {
         
         version.text = "Beta v1.0.0"
         
+        //Changes label to uppercase
         nameLabel.text = finalName.uppercased()
+        
+        //Changes the variable chemName to lowercase and removes " "
         chemName = (finalName.lowercased()).replacingOccurrences(of: " ", with: "")
         
-        /*if chemName == "sodiumchloride" {
-            chemInfo.text = "Sodium Chloride is an ionic substance"
-            chemImg.image = UIImage(named: chemName)
-        } else {
-            chemName == ""
-        }*/
-        
+        //Switch statements
+        //chemImg.image = UIImage(named: chemName) changes image to that of chemName
         switch chemName {
         case "sodiumchloride":
-            chemInfo.text = "Sodium Chloride is an ionic substance"
+            chemInfo.text = "Sodium Chloride has an ionic bond \n It is soluble in water"
             chemImg.image = UIImage(named: chemName)
         default:
-            print("")
+            chemInfo.text = "Currently unavailable, please check input"
+            chemImg.image = nil
         }
-        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
 }

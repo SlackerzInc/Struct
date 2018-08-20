@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     var nameText = ""
     
+    //Code for button to send input
     @IBAction func search(_ sender: Any) {
         self.nameText = textField.text!
         performSegue(withIdentifier: "name", sender: self)
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         
     }
 
+    //Idk something to do with segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var vc = segue.destination as! StructViewController
         vc.finalName = self.nameText
