@@ -33,7 +33,13 @@ class StructViewController: UIViewController {
             chemName == ""
         }*/
         
-        switch 
+        switch chemName {
+        case "sodiumchloride":
+            chemInfo.text = "Sodium Chloride is an ionic substance"
+            chemImg.image = UIImage(named: chemName)
+        default:
+            print("")
+        }
         
     }
 
