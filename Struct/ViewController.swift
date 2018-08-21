@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
     //Idk something to do with segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc = segue.destination as! StructViewController
+        let vc = segue.destination as! StructViewController
         vc.finalName = self.nameText
     }
 
