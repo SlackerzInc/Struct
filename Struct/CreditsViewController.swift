@@ -18,7 +18,7 @@ class CreditsViewController: UIViewController {
 
         membersLabel.text = "Wong Hong Ngai - Coder \n\nLee Dominic - Coder \n\nHung Fong Tai Hiller - Designer"
         
-        acknowledgementsLabel.text = "Special thanks to: \n\nHerman Bergwerf, The MolView Open-Source Project"
+        acknowledgementsLabel.text = "Special thanks to: \n\nHerman Bergwerf, \n\nThe MolView Open-Source Project"
     }
     
 
