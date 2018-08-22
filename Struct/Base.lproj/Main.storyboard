@@ -48,7 +48,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hS9-wa-RCQ"/>
-                                    <segue destination="v4H-M4-BEH" kind="show" identifier="name" id="MWf-ac-Vwn"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pocket dictionary of substances in Chemistry" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKZ-9j-IVQ">
@@ -74,13 +73,14 @@
                         <barButtonItem key="rightBarButtonItem" title="Credits" id="Dnx-V8-FIg">
                             <connections>
                                 <action selector="creditBtn:" destination="BYZ-38-t0r" id="nAG-IL-j3l"/>
-                                <segue destination="aeH-6e-jfQ" kind="show" id="NEe-LI-vXf"/>
+                                <segue destination="aeH-6e-jfQ" kind="show" identifier="showCredits" id="NEe-LI-vXf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="textField" destination="IEh-Pc-IE0" id="TOZ-p5-zug"/>
                         <outlet property="version" destination="7QD-Dz-reF" id="Syd-yz-SQN"/>
+                        <segue destination="v4H-M4-BEH" kind="show" identifier="name" id="yPy-0U-OYo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
