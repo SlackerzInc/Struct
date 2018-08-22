@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var version: UILabel!
     @IBOutlet weak var textField: UITextField!
     
+    @IBAction func creditBtn(_ sender: UIBarButtonItem) {
+    }
+    
     var nameText = ""
     
     //Code for button to send input
@@ -27,11 +30,12 @@ class ViewController: UIViewController {
         
     }
 
+    
     //Idk something to do with segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! StructViewController
         vc.finalName = self.nameText
     }
-
+ 
 }
 
