@@ -137,10 +137,6 @@ class StructViewController: UIViewController {
             chemInfo.text = "Lead Chloride is a white solid. \n It is bonded by ionic bonds and it is insoluble in water. \n Its chemical formula is 'PbCl'"
             chemImg.image = UIImage(named: chemName)
             
-        case "sodium nitrate":
-            chemInfo.text = "Sodium Nitrate is a white solid. \n it is bonded by ionic bond and it soluble in water. \n Its chemical formula is 'NaNO₃'"
-            chemImg.image = UIImage(named: chemName)
-            
             
             
             
