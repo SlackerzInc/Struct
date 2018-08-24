@@ -9,6 +9,8 @@
 import UIKit
 
 class StructViewController: UIViewController {
+    
+    //MARK: - REFERENCING
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var version: UILabel!
@@ -30,9 +32,10 @@ class StructViewController: UIViewController {
         chemName = (finalName.lowercased()).replacingOccurrences(of: " ", with: "")
         
         //Switch statements
-        //chemImg.image = UIImage(named: chemName) changes image to that of chemName
         switch chemName {
-        
+            
+    //MARK: - CARBONATES, CHLORIDES, NITRATES AND SULFATES
+            
         case "sodiumcarbonate":
             chemInfo.text = "Sodium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Na₂CO₃"
             chemImg.image = UIImage(named: chemName)
@@ -139,7 +142,67 @@ class StructViewController: UIViewController {
             chemInfo.text = "Lead Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is PbCl"
             chemImg.image = UIImage(named: chemName)
             
-            //TO BE CONTINUED (NITRATES AND SULFATES)
+            //TODO: - FINISH UP NITRATES AND SULFATES
+            
+            
+            
+            
+            
+            
+            
+            
+        //MARK: - ACIDIC NON-METAL OXIDES
+            
+        case "carbondioxide":
+            chemInfo.text = "Carbon Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is CO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "nitrogendioxide":
+            chemInfo.text = "Nitrogen Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is NO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "sulfurdioxide":
+            chemInfo.text = "Sulfur Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is SO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        //MARK: - NEUTRAL NON-METAL OXIDES
+            
+        case "water", "h₂o", "dihydrogenoxide":
+            chemName = "water"
+            chemInfo.text = "Water is a colourless liquid at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is H₂O"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "carbonmonoxide":
+            chemInfo.text = "Carbon Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is CO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "nitrogenoxide":
+            chemInfo.text = "Nitrogen Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is NO"
+            chemImg.image = UIImage(named: chemName)
+            
+            //MARK: - AMPHOTERIC OXIDES
+            
+        case "zincoxide":
+            chemInfo.text = "Zinc Oxide is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is ZnO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "lead(ii)oxide":
+            chemInfo.text = "Lead(II) Oxide is either red or orange in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is PbO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "lead(iv)oxide":
+            chemInfo.text = "Lead(IV) Oxide is dark-brown in colour in its solid state at room temperature. \n\nIt has an ionix bond and is an amphoteric metal oxide. \n\nIts chemical formula is PbO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+            //TODO: - BASIC OXIDES
+            
+            
+            
+            
+            
+            
+            
+            
             
             
         default:
