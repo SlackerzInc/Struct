@@ -141,6 +141,56 @@ class StructViewController: UIViewController {
             chemInfo.text = "Sodium Nitrate is a white solid. \n it is bonded by ionic bond and it soluble in water. \n Its chemical formula is 'NaNO₃'"
             chemImg.image = UIImage(named: chemName)
             
+        case "potassiumnitrate":
+            chemInfo.text = "Potassium nitrate is a white solid and it is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'KNO₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "ammoniumnitrate":
+            chemInfo.text = "Ammonium Nitrate is a white solid and it is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'NH₄NO₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "calciumnitrate":
+            chemInfo.text = "Calcium nitrate is a white solid and it is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Ca(NO₃)₂'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "magnesiumnitrate":
+            chemInfo.text = "Magnesium Nitrate is a white solid and it is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Mg(NO₃)₂'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "aluminiumnitrate":
+            chemInfo.text = "aluminium nitrate is a white solid and it is acidic. \n it is bonded by ionic bonds and it is souble in water. \n its chemical formula is 'Al(NO₃)₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "copper(ii)nitrate":
+            chemInfo.text = "Copper (II) Nitrate is a blue solid that is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Cu(NO₃)₂'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "iron(ii)nitrate":
+            chemInfo.text = "iron (II) Nitrate is a Green solid that is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Fe(NO₃)₂'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "iron(iii)nitrate":
+            chemInfo.text = "iron (III) Nitrate is a brown solid that is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Fe(NO₃)₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "silvernitrate":
+            chemInfo.text = "Silver nitrate is a white solid which is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'AgNO₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "zincnitrate":
+            chemInfo.text = "Zinc nitrate is a white solid which is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'ZnNO₃'"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "bariumnitrate":
+            chemInfo.text = "Barium Nitrate is a white solid which is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Ba(NO₃)₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "leadnitrate":
+            chemInfo.text = "Lead nitrate is a white solid which is acidic. \n it is bonded by ionic bonds and it is soluble in water. \n its chemical formula is 'Pb(NO₃)₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        
+            
             
             
             
