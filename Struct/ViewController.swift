@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
     @IBAction func creditBtn(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "showCredits", sender: self)
     }
     
     var nameText = ""
@@ -33,8 +34,11 @@ class ViewController: UIViewController {
     
     //Idk something to do with segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! StructViewController
-        vc.finalName = self.nameText
+        if let vc = segue.destination as? StructViewController {
+            vc.finalName = self.nameText
+        }
+        //let vc = segue.destination as! StructViewController
+        //vc.finalName = self.nameText
     }
  
 }

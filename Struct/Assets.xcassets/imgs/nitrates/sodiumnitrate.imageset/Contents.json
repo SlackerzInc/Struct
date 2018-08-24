@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "sodiumnitrate.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "zzz.png",
       "scale" : "2x"
     },
     {

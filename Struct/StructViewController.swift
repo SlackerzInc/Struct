@@ -9,6 +9,8 @@
 import UIKit
 
 class StructViewController: UIViewController {
+    
+    //MARK: - REFERENCING
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var version: UILabel!
@@ -30,115 +32,162 @@ class StructViewController: UIViewController {
         chemName = (finalName.lowercased()).replacingOccurrences(of: " ", with: "")
         
         //Switch statements
-        //chemImg.image = UIImage(named: chemName) changes image to that of chemName
         switch chemName {
-        
+            
+    //MARK: - CARBONATES, CHLORIDES, NITRATES AND SULFATES
+            
         case "sodiumcarbonate":
-            chemInfo.text = "Sodium Cabonate is a white salt also known as table salt. \n It is bonded by an ionic bond and is soluble in water. Sodium carbonate is alkaline and can neutralise acids. \n the chemical formula is 'Na₂CO₃'"
+            chemInfo.text = "Sodium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Na₂CO₃"
             chemImg.image = UIImage(named: chemName)
         
         case "potassiumcarbonate":
-            chemInfo.text = "Potassium Carbonate is a white salt. \n which is bonded by an ionic bond and is strongly alkaline. It is also soluble in water. \n The chemical formula is 'K₂CO₃'"
+            chemInfo.text = "Potassium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is K₂CO₃"
             chemImg.image = UIImage(named: chemName)
        
         case "ammoniumcarbonate":
-            chemInfo.text = "Ammonium Carbonate is a white powder with a strong odour. It is also solble n water. \n It is bonded by an ionic bond and it is basic. \n Its chemical formula is '(NH₄)₃CO₃'"
+            chemInfo.text = "Ammonium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is (NH₄)₂CO₃"
             chemImg.image = UIImage(named: chemName)
             
-        case "calciumcarbonate":
-            chemInfo.text = "Calcium Carbonate is a white salt, commonly called lime or chalk. \n It is bonded by an ionic bond is  basic. It is also insoluble in water. \n Its chemical formula is 'CaCO₃'"
+        case "calciumcarbonate", "limestone", "chalk":
+            chemName = "calciumcarbonate"
+            chemInfo.text = "Calcium Carbonate is white in colour in its solid state at room temperature, also known as limestone or chalk. \n\nIt has an ionic bond and is also insoluble in water. \n\nIts chemical formula is CaCO₃"
             chemImg.image = UIImage(named: chemName)
             
         case "magnesiumcarbonate":
-            chemInfo.text = "Magnesium Carbonate is a white salt. \n It is bonded by an ionic bond and is basic. It is also insoluble in water. \n Its chemical formula is 'MgCO₃"
+            chemInfo.text = "Magnesium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is MgCO₃"
             chemImg.image = UIImage(named: chemName)
             
         case "aluminiumcarbonate":
-            chemInfo.text = "Aluminium Carbonate is a white salt. \n It is bonded by an ionic bond and it is basic. It is also insoluble in water. \n Its chemical formula is 'Al₂(CO₃)₃"
+            chemInfo.text = "Aluminium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is Al₂(CO₃)₃"
             chemImg.image = UIImage(named: chemName)
             
         case "copper(ii)carbonate":
-            chemInfo.text = "Copper (II) Carbonate is a green poweder. \n It is bonded by an ionic bond and is basic. It is insolube in water. \n Its chemical formula is 'CuCO₃'"
+            chemInfo.text = "Copper(II) Carbonate is green in colour in its solid state at room temperature. \n\nIt has an ionic bond is insolube in water. \n\nIts chemical formula is CuCO₃"
             chemImg.image = UIImage(named: chemName)
         
         case "iron(ii)carbonate":
-            chemInfo.text = "Iron (II) Carbonate is a pale green solid. \n It is bonded by an ionic bond and is basic. It is insoluble in water. \n Its chemical formula is 'FeCO₃'"
+            chemInfo.text = "Iron(II) Carbonate is pale-green in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is FeCO₃"
             chemImg.image = UIImage(named: chemName)
 
         case "iron(iii)carbonate":
-            chemInfo.text = "Iron (III) Carbonate is a yellowish brown solid. \n it is bonded by an ionic bond and it is basic. It is insoluble in water. \n Its chemical formula is 'Fe₂(CO₃)₃'"
+            chemInfo.text = "Iron(III) Carbonate is yellowish-brown in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is Fe₂(CO₃)₃"
             chemImg.image = UIImage(named: chemName)
             
         case "silvercarbonate":
-            chemInfo.text = "Silver Carbonate is a yellowish solid. \n it is bonded by an ionic bond and it is basic. It is insoluble in water. \n Its chemical formula is 'Ag₂CO₃'"
+            chemInfo.text = "Silver Carbonate is yellow in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is Ag₂CO₃"
             chemImg.image = UIImage(named: chemName)
             
         case "zinccarbonate":
-            chemInfo.text = "Zinc Carbonate is a white crystalline solid. \n it is bonded by an ionic bond and it is basic. It is insoluble in water. \n Its chemical formula is 'ZnCO₃'"
+            chemInfo.text = "Zinc Carbonate is white in colour in its solid state at room temperature. \n\nit has an ionic bond and is insoluble in water. \n\nIts chemical formula is ZnCO₃"
             chemImg.image = UIImage(named: chemName)
             
         case "bariumcarbonate":
-            chemInfo.text = "Barium Carbonate is a white solid. \n it is bonded by an ionic bond and it is basic. It is insouble in water. \n Its chemical formula is 'BaCO₃'"
+            chemInfo.text = "Barium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insouble in water. \n\nIts chemical formula is BaCO₃"
             chemImg.image = UIImage(named: chemName)
             
         case "leadcarbonate":
-            chemInfo.text = "Lead Carbonate is a white solid. \n it is bonded by an ionic bond an it is basic. It is insoluble in water. \n Its chemical formula is 'PbCO₃'"
+            chemInfo.text = "Lead Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is PbCO₃"
             chemImg.image = UIImage(named: chemName)
         
-        case "sodiumchloride":
-            chemInfo.text = "Sodium Carbonate is a white solid, Is also called table salt. \n it is bonded by an ionic bond and it is basic. It is soluble in water. \n Its chemical formula is 'NaCl"
+        case "sodiumchloride", "salt":
+            chemName = "sodiumchloride"
+            chemInfo.text = "Sodium Chloride, also known as table salt, is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is NaCl"
             chemImg.image = UIImage(named: chemName)
             
         case "potasiumchloride":
-            chemInfo.text = "Potasium Carbonate is a white solid. \n it is bonded by ionic bonds and it is basic. It is soluble in water. \n Its chemical formula is 'KCl'"
+            chemInfo.text = "Potasium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is KCl"
             chemImg.image = UIImage(named: chemName)
             
         case "ammoniumchloride":
-            chemInfo.text = "Ammonuim Chloride is a white solid. \n it is bonded by ionic bonds and it is basic. It is soluble in water. \n its chemical formula is 'NH₄Cl'"
+            chemInfo.text = "Ammonuim Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is NH₄Cl"
             chemImg.image = UIImage(named: chemName)
             
         case "calciumchloride":
-            chemInfo.text = "Calcium Chloride is a white solid. \n it is bonded by ionic bonds and it is basic. It is soluble in water. \n its chemical formula is 'CaCl₂'"
+            chemInfo.text = "Calcium Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is CaCl₂"
             chemImg.image = UIImage(named: chemName)
             
         case "magnesiumchloride":
-            chemInfo.text = "Magnesium Chloride is a white solid. \n it is bonded by ionic bonds and it is basic. It is soluble in water. \n its chemical formula is'MgCl₂'"
+            chemInfo.text = "Magnesium Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula isMgCl₂"
             chemImg.image = UIImage(named: chemName)
             
-        case "aluminium chloride":
-            chemInfo.text = "Aluminium Chloride is a white solid, but it is often contaminated, giving it a yellow colour. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'AlCl₃'"
+        case "aluminiumchloride":
+            chemInfo.text = "Aluminium Chloride is white in colour in its solid state at room temperature, but it is often contaminated, giving it a yellow colour. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is AlCl₃"
             chemImg.image = UIImage(named: chemName)
             
         case "copper(ii)chloride":
-            chemInfo.text = "copper(II)Chloride is a blue solid. \n It is bonded by ionic bonds and it is solube in water. \n Its chemical formula is 'CuCl₂'"
+            chemInfo.text = "Copper(II) Chloride is blue in colour in its solid state at room temperature. \n\nIt has an ionic bond and is solube in water. \n\nIts chemical formula is CuCl₂"
             chemImg.image = UIImage(named: chemName)
 
         case "iron(ii)chloride":
-            chemInfo.text = " Iron(II)Chloride is a greenish solid. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'FeCl₂'"
+            chemInfo.text = "Iron(II)Chloride is greenish in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is FeCl₂"
             chemImg.image = UIImage(named: chemName)
             
         case "iron(iii)chloride":
-            chemInfo.text = "Iron(III)Chloride is a dark green solid. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'FeCl'"
+            chemInfo.text = "Iron(III)Chloride is dark green in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is FeCl₃"
             chemImg.image = UIImage(named: chemName)
             
         case "silverchloride":
-            chemInfo.text = "Silver Chloride is a white solid. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'AgCl'"
+            chemInfo.text = "Silver Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is AgCl"
             chemImg.image = UIImage(named: chemName)
             
         case "zincchloride":
-            chemInfo.text = "Zinc Chloride is a white solid. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'ZnCl₂'"
+            chemInfo.text = "Zinc Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is ZnCl₂"
             chemImg.image = UIImage(named: chemName)
             
         case "bariumchloride":
-            chemInfo.text = "Barium Chloride is a white solid. \n It is bonded by ionic bonds and it is soluble in water. \n Its chemical formula is 'BaCl₂'"
+            chemInfo.text = "Barium Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is BaCl₂"
             chemImg.image = UIImage(named: chemName)
             
         case "leadchloride":
-            chemInfo.text = "Lead Chloride is a white solid. \n It is bonded by ionic bonds and it is insoluble in water. \n Its chemical formula is 'PbCl'"
+            chemInfo.text = "Lead Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is PbCl"
             chemImg.image = UIImage(named: chemName)
             
-        case "sodium nitrate":
-            chemInfo.text = "Sodium Nitrate is a white solid. \n it is bonded by ionic bond and it soluble in water. \n Its chemical formula is 'NaNO₃'"
+            //TODO: - FINISH UP NITRATES AND SULFATES
+            
+            
+            
+            
+            
+            
+            
+            
+        //MARK: - ACIDIC NON-METAL OXIDES
+            
+        case "carbondioxide":
+            chemInfo.text = "Carbon Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is CO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "nitrogendioxide":
+            chemInfo.text = "Nitrogen Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is NO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "sulfurdioxide":
+            chemInfo.text = "Sulfur Dioxide is a colourless gas at room temperature.\n\nIt has a covalent bond and is an acidic non-metal oxide. \n\nIts chemical formula is SO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        //MARK: - NEUTRAL NON-METAL OXIDES
+            
+        case "water", "h₂o", "dihydrogenoxide":
+            chemName = "water"
+            chemInfo.text = "Water is a colourless liquid at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is H₂O"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "carbonmonoxide":
+            chemInfo.text = "Carbon Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is CO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "nitrogenoxide":
+            chemInfo.text = "Nitrogen Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is NO"
+            chemImg.image = UIImage(named: chemName)
+            
+            //MARK: - AMPHOTERIC OXIDES
+            
+        case "zincoxide":
+            chemInfo.text = "Zinc Oxide is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is ZnO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "lead(ii)oxide":
+            chemInfo.text = "Lead(II) Oxide is either red or orange in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is PbO"
             chemImg.image = UIImage(named: chemName)
             
         case "potassiumnitrate":
@@ -195,7 +244,7 @@ class StructViewController: UIViewController {
             
             
         default:
-            chemInfo.text = "Currently unavailable, please check input"
+            chemInfo.text = "Currently unavailable, please check input or try again later"
             chemImg.image = nil
        
         }
