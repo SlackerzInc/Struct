@@ -8,11 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var version: UILabel!
     @IBOutlet weak var textField: UITextField!
-    
     @IBAction func creditBtn(_ sender: UIBarButtonItem) {
         performSegue(withIdentifier: "showCredits", sender: self)
     }
@@ -27,6 +26,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textField.delegate = self
         version.text = "Beta v1.0.0"
         
     }
@@ -37,8 +37,11 @@ class ViewController: UIViewController {
         if let vc = segue.destination as? StructViewController {
             vc.finalName = self.nameText
         }
-        //let vc = segue.destination as! StructViewController
-        //vc.finalName = self.nameText
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
  
 }
