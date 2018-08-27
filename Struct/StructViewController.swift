@@ -14,7 +14,7 @@ class StructViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var version: UILabel!
-    @IBOutlet weak var chemInfo: UILabel!
+    @IBOutlet weak var chemInfo: UITextView!
     @IBOutlet weak var chemImg: UIImageView!
     
     var finalName = ""
