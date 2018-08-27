@@ -219,7 +219,7 @@ class StructViewController: UIViewController {
             
         //MARK: - NEUTRAL NON-METAL OXIDES
             
-        case "water", "h₂o", "dihydrogenmonoxide":
+        case "water", "h2o", "dihydrogenmonoxide":
             chemName = "water"
             chemInfo.text = "Water is a colourless liquid at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is H₂O"
             chemImg.image = UIImage(named: chemName)
