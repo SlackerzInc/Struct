@@ -194,6 +194,58 @@ class StructViewController: UIViewController {
             chemInfo.text = "Lead nitrate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Pb(NO₃)₂"
             chemImg.image = UIImage(named: chemName)
             
+            
+        case "sodiumsulfate":
+            chemInfo.text = "sodium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Na₂SO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "potassiumsulfate":
+            chemInfo.text = "potassium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is K₂SO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "ammoniumsulfate":
+            chemInfo.text = "ammonium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is (NH₄)₂SO₄"
+            
+            
+        case "calciumsulfate":
+            chemInfo.text = "potassium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is CaSO₄"
+            chemImg.image = UIImage(named: chemName)
+    
+        case "magnesiumsulfate":
+            chemInfo.text = "magnesium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is MgSO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "aluminiumsulfate":
+            chemInfo.text = "potassium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is (Al)₂(SO₄)₃"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "copper(ii)sulfate":
+            chemInfo.text = "Copper(II) Sulfate is a Bluish solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is CuSO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "iron(ii)sulfate":
+            chemInfo.text = "potassium sulfate is a green solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is FeSO₄"
+            chemImg.image = UIImage(named: chemName)
+        
+        case "iron(iii)sulfate":
+            chemInfo.text = "Iron(III) sulfate is a yellow solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Fe₂(SO₄)₃"
+            chemImg.image = UIImage(named: chemName)
+        
+        case "silver sulfate":
+            chemInfo.text = "Silver sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is Ag₂SO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "zinc sulfate":
+            chemInfo.text = "Zinc sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is ZnSO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "barium sulfate":
+            chemInfo.text = "Barium sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is BaSO₄"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "lead sulfate":
+            chemInfo.text = "Lead Sulfate is a white solid at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is PbSO₄"
+            chemImg.image = UIImage(named: chemName)
             //TODO: - FINISH UP SULFATES
             
             
