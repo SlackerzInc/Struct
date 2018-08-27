@@ -219,7 +219,7 @@ class StructViewController: UIViewController {
             
         //MARK: - NEUTRAL NON-METAL OXIDES
             
-        case "water", "h₂o", "dihydrogenoxide":
+        case "water", "h₂o", "dihydrogenmonoxide":
             chemName = "water"
             chemInfo.text = "Water is a colourless liquid at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is H₂O"
             chemImg.image = UIImage(named: chemName)
@@ -228,7 +228,7 @@ class StructViewController: UIViewController {
             chemInfo.text = "Carbon Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is CO"
             chemImg.image = UIImage(named: chemName)
             
-        case "nitrogenoxide":
+        case "nitrogenmonoxide":
             chemInfo.text = "Nitrogen Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is NO"
             chemImg.image = UIImage(named: chemName)
             
@@ -240,6 +240,14 @@ class StructViewController: UIViewController {
             
         case "lead(ii)oxide":
             chemInfo.text = "Lead(II) Oxide is either red or orange in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is PbO"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "lead(iv)oxide":
+            chemInfo.text = "Lead(IV) Oxide is red-brown in colour in its solid state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is PbO₂"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "aluminiumoxide":
+            chemInfo.text = "Aluminium Oxide is white in colour in its solid powdered state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is Al₂O₃"
             chemImg.image = UIImage(named: chemName)
             
             
