@@ -13,17 +13,15 @@ class StructViewController: UIViewController {
     //MARK: - REFERENCING
 
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var version: UILabel!
     @IBOutlet weak var chemInfo: UITextView!
     @IBOutlet weak var chemImg: UIImageView!
     
     var finalName = ""
     var chemName = ""
+    var metalBond = #imageLiteral(resourceName: "metallicbonding")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        version.text = "Beta v1.0.0"
         
         //Changes label to uppercase
         nameLabel.text = finalName.uppercased()
@@ -279,6 +277,9 @@ class StructViewController: UIViewController {
             chemInfo.text = "Nitrogen Monoxide is a colourless gas at room temperature. \n\nIt has a covalent bond and is a neutral non-metal oxide. \n\nIts chemical formula is NO"
             chemImg.image = UIImage(named: chemName)
             
+            
+            
+            
             //MARK: - AMPHOTERIC OXIDES
             
         case "zincoxide":
@@ -295,6 +296,87 @@ class StructViewController: UIViewController {
             
         case "aluminiumoxide":
             chemInfo.text = "Aluminium Oxide is white in colour in its solid powdered state at room temperature. \n\nIt has an ionic bond and is an amphoteric metal oxide. \n\nIts chemical formula is Al₂O₃"
+            chemImg.image = UIImage(named: chemName)
+            
+            
+            
+            
+            //MARK: - METALS OF PERIODIC TABLE
+            
+        case "lithium", "li":
+            chemName = "lithium"
+            chemInfo.text = "Lithium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 180.5°C and a boiling point of 1,342°C. \n\nLithium has an atomic number of 3, an atomic mass of 7 and a charge of +"
+            chemImg.image = metalBond
+            
+        case "beryllium", "be":
+            chemName = "beryllium"
+            chemInfo.text = "Beryllium is a steel-gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1,287°C and a boiling point of 2,471°C. \n\nBeryllium has an atomic number of 4, an atomic mass of 9 and a charge of 2+"
+            chemImg.image = metalBond
+            
+        case "sodium", "na":
+            chemName = "sodium"
+            chemInfo.text = "Sodium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 97.81°C and a boiling point of 882.9°C. \n\nSodium has an atomic number of 11, an atomic mass of 23 and a charge of +"
+            chemImg.image = metalBond
+            
+        case "magnesium", "mg":
+            chemName = "magnesium"
+            chemInfo.text = "Magnesium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 650°C and a boiling point of 1,090°C. \n\nMagnesium has an atomic number of 12, an atomic mass of 24 and a charge of 2+"
+            chemImg.image = metalBond
+            
+        case "aluminium","aluminum", "al":
+            chemName = "aluminium"
+            chemInfo.text = "Aluminium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 660.32°C and a boiling point of 2470°C. \n\nAluminium has an atomic number of 13, an atomic mass of 27 and a charge of 3+"
+            chemImg.image = metalBond
+            
+        case "potassium", "k":
+            chemName = "potassium"
+            chemInfo.text = "Potassium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 63.28°C and a boiling point of 760°C. \n\nPotassium has an atomic number of 19, an atomic mass of 39 and a charge of +"
+            chemImg.image = metalBond
+            
+        case "calcium", "ca":
+            chemName = "calcium"
+            chemInfo.text = "Calcium is a silver coloured metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 842°C and a boiling point of 1484°C. \n\nCalcium has an atomic number of 20, an atomic mass of 40 and a charge of 2+"
+            chemImg.image = metalBond
+            
+            //TODO: - FINISH UP METALS FOR PERIODIC TABLE
+            
+            
+            
+            //MARK: - METALLOIDS
+            
+        case "boron", "b":
+            chemName = "boron"
+            chemInfo.text = "Boron is a black-brown metalloid in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2076°C and a boiling point of 3927°C. \n\nBoron has an atomic number of 5, an atomic mass of 11 and a charge of 3+"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "silicon", "si":
+            chemName = "silicon"
+            chemInfo.text = "Silicon is a shiny and blueish-tinged metalloid in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1414°C and a boiling point of 3265°C. \n\nSilicon has an atomic number of 14, an atomic mass of 28 and a charge of 4+ or 4-"
+            chemImg.image = UIImage(named: chemName)
+            
+            //TODO: - FINISH UP METALLOIDS
+            
+            
+            
+            //MARK: NON-METALS OF PERIODIC TABLES
+            
+        case "hydrogen", "h":
+            chemName = "hydrogen"
+            chemInfo.text = "Hydrogen is a colourless gas at room temperature. \n\nHydrogen GAS has a covalent bond with a melting point of −259.16°C and a boiling point of −252.879°C. \n\nHydrogen has an atomic number of 1 and an atomic mass of 1"
+            chemImg.image = UIImage(named: chemName)
+            
+            //TODO: - FINISH NON-METALS OF PERIODIC TABLES
+            
+            
+            
+            
+            
+            
+            //MARK: - NOBLE GASES
+            
+        case "helium", "he":
+            chemName = "helium"
+            chemInfo.text = "Helium is a colourless gas at room temperature. \n\nHydrogen GAS is a noble gas with a melting point of −272.20°C and a boiling point of −268.928°C. \n\nHelium has an atomic number of 2 and an atomic mass of 4"
             chemImg.image = UIImage(named: chemName)
             
             

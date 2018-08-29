@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var version: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBAction func creditBtn(_ sender: UIBarButtonItem) {
         performSegue(withIdentifier: "showCredits", sender: self)
@@ -27,7 +26,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.delegate = self
-        version.text = "Beta v1.0.0"
+        
+        let alertController = UIAlertController(title: "Dear Users", message: "Struct is still work in progress, so there will be some things missing; \nWe're doing our best to include as many items as soon as possible, thank you!", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
+        
+        self.present(alertController, animated: true, completion: nil)
         
     }
 
