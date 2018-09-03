@@ -376,7 +376,17 @@ class StructViewController: UIViewController {
             
         case "helium", "he":
             chemName = "helium"
-            chemInfo.text = "Helium is a colourless gas at room temperature. \n\nHydrogen GAS is a noble gas with a melting point of −272.20°C and a boiling point of −268.928°C. \n\nHelium has an atomic number of 2 and an atomic mass of 4"
+            chemInfo.text = "Helium is a colourless gas at room temperature. \n\nHelium gas is a noble gas with a melting point of −272.20°C and a boiling point of −268.928°C. \n\nHelium has an atomic number of 2 and an atomic mass of 4. \n\nIt exhibits a red-orange glow when placed in an electric field."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "neon", "ne":
+            chemName = "neon"
+            chemInfo.text = "Neon is a colourless gas at room temperature. \n\nNeon gas is a noble gas with a melting point of −248.59°C and a boiling point of −246.046°C. \n\nNeon has an atomic number of 10 and an atomic mass of 20. \n\nIt exhibits an orange-red glow when placed in an electric field."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "argon", "ar":
+            chemName = "argon"
+            chemInfo.text = "Argon is a colourless gas at room temperature. \n\nArgon gas is a noble gas with a melting point of -189.34°C and a boiling point of −185.848°C. \n\nArgon has an atomic number of 18 and an atomic mass of 20. \n\nIt exhibits a lilac/violet glow when placed in an electric field"
             chemImg.image = UIImage(named: chemName)
             
             
