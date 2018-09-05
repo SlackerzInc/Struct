@@ -111,40 +111,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP6-BT-ZbT">
-                                <rect key="frame" x="16" y="321.66666666666674" width="343" height="396.33333333333326"/>
+                                <rect key="frame" x="16" y="322" width="343" height="461"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNF-mb-IBH">
-                                <rect key="frame" x="132" y="738" width="111" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="111" id="5DZ-tM-qpB"/>
-                                    <constraint firstAttribute="height" constant="30" id="ogy-MB-maf"/>
-                                </constraints>
-                                <state key="normal" title="Beta v1.0.0">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="showEgg:" destination="aeH-6e-jfQ" eventType="touchUpInside" id="lhy-G1-nGc"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kgY-1V-FqG" firstAttribute="trailing" secondItem="EU8-iy-cNK" secondAttribute="trailing" constant="16" id="0c9-OF-Y5M"/>
+                            <constraint firstItem="KP6-BT-ZbT" firstAttribute="bottom" secondItem="kgY-1V-FqG" secondAttribute="bottom" constant="5" id="1eG-XZ-170"/>
                             <constraint firstItem="kgY-1V-FqG" firstAttribute="trailing" secondItem="2fR-Wk-wEy" secondAttribute="trailing" constant="16" id="6ca-ux-PfJ"/>
                             <constraint firstItem="2fR-Wk-wEy" firstAttribute="top" secondItem="kgY-1V-FqG" secondAttribute="top" constant="19" id="8pr-bb-R2z"/>
                             <constraint firstItem="a6A-CY-CHV" firstAttribute="leading" secondItem="kgY-1V-FqG" secondAttribute="leading" constant="16" id="CmA-Ml-bFg"/>
                             <constraint firstItem="2fR-Wk-wEy" firstAttribute="leading" secondItem="kgY-1V-FqG" secondAttribute="leading" constant="16" id="EAF-LZ-99Z"/>
                             <constraint firstItem="KP6-BT-ZbT" firstAttribute="top" secondItem="EU8-iy-cNK" secondAttribute="bottom" constant="15" id="Sft-FI-Pug"/>
                             <constraint firstItem="kgY-1V-FqG" firstAttribute="trailing" secondItem="a6A-CY-CHV" secondAttribute="trailing" constant="16" id="T3n-Ew-EIH"/>
-                            <constraint firstItem="kgY-1V-FqG" firstAttribute="bottom" secondItem="iNF-mb-IBH" secondAttribute="bottom" constant="10" id="T6s-Uf-9EN"/>
                             <constraint firstItem="kgY-1V-FqG" firstAttribute="trailing" secondItem="KP6-BT-ZbT" secondAttribute="trailing" constant="16" id="XzY-Hd-7M4"/>
-                            <constraint firstItem="iNF-mb-IBH" firstAttribute="top" secondItem="KP6-BT-ZbT" secondAttribute="bottom" constant="20" id="f7N-Uf-rAj"/>
                             <constraint firstItem="EU8-iy-cNK" firstAttribute="leading" secondItem="kgY-1V-FqG" secondAttribute="leading" constant="16" id="hfa-Gl-PTx"/>
                             <constraint firstItem="KP6-BT-ZbT" firstAttribute="leading" secondItem="kgY-1V-FqG" secondAttribute="leading" constant="16" id="mRE-l0-ZHh"/>
-                            <constraint firstItem="iNF-mb-IBH" firstAttribute="centerX" secondItem="djQ-wv-esK" secondAttribute="centerX" id="pbh-KI-528"/>
                             <constraint firstItem="EU8-iy-cNK" firstAttribute="top" secondItem="a6A-CY-CHV" secondAttribute="bottom" constant="15" id="vF5-Z5-7bd"/>
                             <constraint firstItem="a6A-CY-CHV" firstAttribute="top" secondItem="2fR-Wk-wEy" secondAttribute="bottom" constant="9" id="xVt-Sb-y90"/>
                         </constraints>
@@ -157,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IU8-nv-uvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="882"/>
+            <point key="canvasLocation" x="1093.5999999999999" y="881.5270935960591"/>
         </scene>
         <!--Struct View Controller-->
         <scene sceneID="3By-zd-o2H">

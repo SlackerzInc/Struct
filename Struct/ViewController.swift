@@ -27,12 +27,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         textField.delegate = self
         
+        /*
         let alertController = UIAlertController(title: "Dear Users", message: "Struct is still work in progress, so there will be some things missing; \nWe're doing our best to include as many items as soon as possible, thank you!", preferredStyle: UIAlertControllerStyle.alert)
         
         alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
         
         self.present(alertController, animated: true, completion: nil)
-        
+        */
+ 
     }
 
     
