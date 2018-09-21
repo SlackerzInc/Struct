@@ -419,7 +419,7 @@ class StructViewController: UIViewController {
         
         case "xenon", "xe":
             chemName = "xenon"
-            chemInfo.text = "Xenon is a colour gas at room temperature. \n\nXenon is a noble gas with a melting point of -111.8 and a boiling point of -108.1ºC. \n\nXenon has a atomic number of 54 and a atomic mass of 131.29. \n\nIt exhibits a Blue glow when placed in a electric glow."
+            chemInfo.text = "Xenon is a colour gas at room temperature. \n\nXenon is a noble gas with a melting point of -111.8 and a boiling point of -108.1ºC. \n\nXenon has a atomic number of 54 and a atomic mass of 131.29. \n\nIt exhibits a blue glow when placed in a electric field."
             chemImg.image = UIImage(named: chemName)
             
             
