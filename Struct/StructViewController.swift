@@ -377,7 +377,7 @@ class StructViewController: UIViewController {
   
         case "antimony", "Sb":
             chemName = "antimony"
-            chemInfo.text = "Antimony is a lustus gray solid metalloid solid at room temperature. \n\nIt has a metallic bond with a melting point of 630.6ºC and a boiling point of 1,587°C. \n\nAntimony has a atomic number of 51 and a atomic mass of 122 and a charge of 3-"
+            chemInfo.text = "Antimony is a lustrous gray solid metalloid solid at room temperature. \n\nIt has a metallic bond with a melting point of 630.6ºC and a boiling point of 1,587°C. \n\nAntimony has a atomic number of 51 and a atomic mass of 122 and a charge of 3-"
             //TODO: - FINISH UP METALLOIDS
             
             
