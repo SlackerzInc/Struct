@@ -354,6 +354,30 @@ class StructViewController: UIViewController {
             chemInfo.text = "Silicon is a shiny and blueish-tinged metalloid in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1414°C and a boiling point of 3265°C. \n\nSilicon has an atomic number of 14, an atomic mass of 28 and a charge of 4+ or 4-"
             chemImg.image = UIImage(named: chemName)
             
+            
+        case "arsenic", "as":
+            chemName = "arsenic"
+            chemInfo.text = "Arsenic is a Metallic grey metalloid in its solid state at room temperature. \n\nIt has metallic bond with a melting point of 816.8ºC and a boiling point of 613ºC.  \n\nArsenic has a atomic number of 33 and a atomic mass of 75 and a charge of 3-"
+            chemImg.image = UIImage(named: chemName)
+
+        case "tellurium", "te":
+            chemName = "tellurium"
+            chemInfo.text = "Tellurium is a Silver white metalloid in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 449.51°C and a boiling point of 988ºC. \n\nTellurium has a atomic number of 52 and a atomic mass of 128 and a charge of 2-"
+            chemImg.image = UIImage(named: chemName)
+
+        case "astatine", "at":
+            chemName = "astatine"
+            chemInfo.text = "Astatine is a Black solid at room temperature. \n\nIt has a metallic bond with a melting point of 302°C and a boiling point of 336.8 °C. \n\nAstatine has a atomic number of 85 and a atomic mass of (210) and a charge of 1-"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "germainium", "ge":
+            chemName = "germanium"
+            chemInfo.text = "Germanium is a grayish white solid at room temperature. \n\nIt has a metallic bond with a melting point of 932.8ºC and a boiling point of 2,833°C. \n\nGermanium has a atomic number of 32 and a atomic mass 73 and a charge of 4+ or 4-"
+            chemImg.image = UIImage(named: chemName)
+  
+        case "antimony", "Sb":
+            chemName = "antimony"
+            chemInfo.text = "Antimony is a lustus gray solid metalloid solid at room temperature. \n\nIt has a metallic bond with a melting point of 630.6ºC and a boiling point of 1,587°C. \n\nAntimony has a atomic number of 51 and a atomic mass of 122 and a charge of 3-"
             //TODO: - FINISH UP METALLOIDS
             
             
