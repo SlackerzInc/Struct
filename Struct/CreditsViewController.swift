@@ -14,9 +14,9 @@ class CreditsViewController: UIViewController {
     @IBOutlet weak var acknowledgementsLabel: UILabel!
     @IBAction func showEgg(_ sender: Any) {
         
-        let alertController = UIAlertController(title: "Easter Egg?", message: "BonziBuddy was here", preferredStyle: UIAlertControllerStyle.alert)
+        let alertController = UIAlertController(title: "Easter Egg?", message: "BonziBuddy was here", preferredStyle: UIAlertController.Style.alert)
         
-        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil))
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
         
         self.present(alertController, animated: true, completion: nil)
         
