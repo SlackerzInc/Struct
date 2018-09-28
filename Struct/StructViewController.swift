@@ -323,20 +323,50 @@ class StructViewController: UIViewController {
             chemInfo.text = "Magnesium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 650°C and a boiling point of 1,090°C. \n\nMagnesium has an atomic number of 12, an atomic mass of 24 and a charge of 2+"
             chemImg.image = metalBond
             
-        case "aluminium","aluminum", "al":
+        case "aluminium", "al":
             chemName = "aluminium"
             chemInfo.text = "Aluminium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 660.32°C and a boiling point of 2470°C. \n\nAluminium has an atomic number of 13, an atomic mass of 27 and a charge of 3+"
             chemImg.image = metalBond
             
         case "potassium", "k":
             chemName = "potassium"
-            chemInfo.text = "Potassium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 63.28°C and a boiling point of 760°C. \n\nPotassium has an atomic number of 19, an atomic mass of 39 and a charge of +"
+            chemInfo.text = "Potassium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 63.28°C and a boiling point of 760°C. \n\nPotassium has an atomic number of 19, an atomic mass of 39 and a charge of 1+"
             chemImg.image = metalBond
             
         case "calcium", "ca":
             chemName = "calcium"
             chemInfo.text = "Calcium is a silver coloured metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 842°C and a boiling point of 1484°C. \n\nCalcium has an atomic number of 20, an atomic mass of 40 and a charge of 2+"
             chemImg.image = metalBond
+            
+        case "rubidium", "rb":
+            chemName = "rubidium"
+            chemInfo.text = "Rubidium is a grey white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.48 °C and a bouling point of 688 °C. \n\nRubidium has an atomic number of 37, an atomic mass of 85 and a charge of 1+"
+            chemImg.image = metalBond
+            
+        case "strontium", "Sr":
+            chemName = "strontium"
+            chemInfo.text = "Strontium is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 777 ºC and a boiling point of 1733 ºC. \n\nStrontium has a atomic number of 38 and a atomic mass of 88 and a charge of 2+"
+            chemImg.image = metalBond
+            
+        case "caesium", "cs":
+            chemName = "caesium"
+            chemInfo.text = "Caesium is pale gold metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 28.5 ºC and a boiling point of 671 ºC. \n\nCaesium has a atomic number of 55 and a atomic mass of 133 and a charge of 1+"
+            chemImg.image = metalBond
+            
+        case "barium", "ba":
+            chemName = "barium"
+            chemInfo.text = "Barium is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has a atomic number of 56 and a atomic mass of 137 and a charge of 2+"
+            chemImg.image = metalBond
+            
+        case "francium", "fr":
+            chemName = "francium"
+            chemInfo.text = "Francium is a silver gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 30 °C and a boiling point of 680 ºC \n\nFrancium has a atomic number of 87 and a atomic mass of 223 and a charge of +"
+            chemImg.image = metalBond
+            
+        case "radium", "ra":
+            chemName = "radium"
+            chemInfo.text = "Radium is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 700 °C and a boiling point of 1737 ºC \n\nRadium  has a atomic number of 88 and a atomic of 226 and a charge of 2+"
+            chemImg.image  = metalBond
             
             //TODO: - FINISH UP METALS FOR PERIODIC TABLE
             
