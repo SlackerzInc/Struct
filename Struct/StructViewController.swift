@@ -419,6 +419,15 @@ class StructViewController: UIViewController {
             chemInfo.text = "Hydrogen is a colourless gas at room temperature. \n\nHydrogen GAS has a covalent bond with a melting point of −259.16°C and a boiling point of −252.879°C. \n\nHydrogen has an atomic number of 1 and an atomic mass of 1"
             chemImg.image = UIImage(named: chemName)
             
+        case "carbon", "c":
+            chemName = "carbon"
+            chemInfo.text = "Carbon is a black metal at room temperature. \n\nCarbon has a covalent bond with a sublimation(solid to gas) point of 3642 ºC. \n\nCarbon has an atomic number of 6 and a atomic mass of 12"
+            chemImg.image = UIImage(named: chemName)
+            
+        case "nitrogen", "N":
+            chemName = "nitrogen"
+            chemInfo.text = "Nitrogen is a colourless gas at room temperature. \n\nNitrogen gas has a covalent bond with a melting point of -210 ºC and a boiling point of of -195 ºC. \n\nNitrogen has an atomic number of 7 and a atomic mas of 14"
+            chemImg.image = UIImage(named: chemName)
         
             
             //TODO: - FINISH NON-METALS OF PERIODIC TABLES
