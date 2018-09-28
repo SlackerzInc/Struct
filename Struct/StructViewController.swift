@@ -389,6 +389,8 @@ class StructViewController: UIViewController {
             chemInfo.text = "Hydrogen is a colourless gas at room temperature. \n\nHydrogen GAS has a covalent bond with a melting point of −259.16°C and a boiling point of −252.879°C. \n\nHydrogen has an atomic number of 1 and an atomic mass of 1"
             chemImg.image = UIImage(named: chemName)
             
+        
+            
             //TODO: - FINISH NON-METALS OF PERIODIC TABLES
             
             
@@ -415,11 +417,16 @@ class StructViewController: UIViewController {
             
         case "krypton", "kr":
             chemName = "krypton"
-            chemInfo.text = "Krypton is a colourless gas at room temperature. \n\nKrypton gas is a noble gas with a melting point of -157.4 °C and and boiling point of -153.4°C. \n\nKrypton has a atomic number of 36 and a atomic mass of 84. \n\nIt exhibits a whitish glow when placed in a electric field."
+            chemInfo.text = "Krypton is a colourless gas at room temperature. \n\nKrypton gas is a noble gas with a melting point of -157.4 °C and a boiling point of -153.4°C. \n\nKrypton has a atomic number of 36 and a atomic mass of 84. \n\nIt exhibits a whitish glow when placed in a electric field."
         
         case "xenon", "xe":
             chemName = "xenon"
             chemInfo.text = "Xenon is a colour gas at room temperature. \n\nXenon is a noble gas with a melting point of -111.8 and a boiling point of -108.1ºC. \n\nXenon has a atomic number of 54 and a atomic mass of 131.29. \n\nIt exhibits a blue glow when placed in a electric field."
+            chemImg.image = UIImage(named: chemName)
+        
+        case "radon", "rn":
+            chemName = "radon"
+            chemInfo.text = "Radon is a colourless gas at room temperature. \n\nRadon is a noble gas with a melting point of −111.75 °C and a boiling point of −108.099 °C. \n\nRadon has a atomic number of 86 atomic mass of 222. \n\nIt exhibits no colour when placed in a electric field."
             chemImg.image = UIImage(named: chemName)
             
             
