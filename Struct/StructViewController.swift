@@ -342,6 +342,29 @@ class StructViewController: UIViewController {
             chemInfo.text = "Calcium has the chemical symbol of Ca and is a silver coloured metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 842°C and a boiling point of 1484°C. \n\nCalcium has an atomic number of 20, an atomic mass of 40 and a charge of 2+"
             chemImg.image = metalBond
             
+        case "scandium", "sc":
+            chemName = "scandium"
+            chemInfo.text = "Scandium has the chemical symbol of Sc and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1668°C and a boiling point of 3287°C. \n\nScandium has an atomic number of 21 and an atomic mass of 45."
+            chemImg.image = metalBond
+            
+        case "titanium", "ti":
+            chemName = "titanium"
+            chemInfo.text = "Titanium has the chemical symbol of Ti and is a lustrous silvery metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1541°C and a boiling point of 2836°C. \n\nTitanium has an atomic number of 22 and an atomic mass of 48."
+            chemImg.image = metalBond
+            
+        case "vanadium", "v":
+            chemName = "vanadium"
+            chemInfo.text = "Vanadium has the chemical symbol of V and is a hard, silvery-grey and ductile metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1910°C and a boiling point of 3407°C. \n\nVanadium has an atomic number of 23 and an atomic mass of 51."
+            chemImg.image = metalBond
+            
+            
+            
+            
+            
+            
+            
+            
+            
         case "rubidium", "rb":
             chemName = "rubidium"
             chemInfo.text = "Rubidium has the chemical symbol of Rb and is a grey white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.48 °C and a bouling point of 688 °C. \n\nRubidium has an atomic number of 37, an atomic mass of 85 and a charge of 1+"
