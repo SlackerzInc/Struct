@@ -434,12 +434,12 @@ class StructViewController: UIViewController {
         case "astatine", "at":
             chemName = "astatine"
             chemInfo.text = "Astatine has the chemical symbol of At and has no known colours. \n\nIt has an estimated melting point of 302°C and an estimated boiling point of 336.8°C.\n\nThe properties and structure of Astatine are not well known as any visible samples would vaporise itself due to the heat generated from its own radioactivity.\n\nAstatine has an atomic number of 85 and an atomic mass of 210."
-            chemImg.image = UIImage(named: chemName)
+            chemImg.image = noimg
             
         case "polonium", "po":
             chemName = "polonium"
             chemInfo.text = "Polonium has the chemical symbol of Po and is a silvery metalloid in its solid state at room temperature. \n\nIt has a melting point of 254°C and a boiling point of 962°C. \n\nPolonium has an atomic number of 84 and an atomic mass of 209."
-            chemImg.image = noimg
+            chemImg.image = UIImage(named: chemName)
             
             
             
