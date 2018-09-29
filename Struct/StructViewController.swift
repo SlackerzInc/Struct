@@ -309,67 +309,67 @@ class StructViewController: UIViewController {
             
         case "lithium", "li":
             chemName = "lithium"
-            chemInfo.text = "Lithium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 180.5°C and a boiling point of 1,342°C. \n\nLithium has an atomic number of 3, an atomic mass of 7 and a charge of +"
+            chemInfo.text = "Lithium has the chemical symbol of Li and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 180.5°C and a boiling point of 1,342°C. \n\nLithium has an atomic number of 3, an atomic mass of 7 and a charge of +"
             chemImg.image = metalBond
             
         case "beryllium", "be":
             chemName = "beryllium"
-            chemInfo.text = "Beryllium is a steel-gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1,287°C and a boiling point of 2,471°C. \n\nBeryllium has an atomic number of 4, an atomic mass of 9 and a charge of 2+"
+            chemInfo.text = "Beryllium has the chemical symbol of Be and is a steel-gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1,287°C and a boiling point of 2,471°C. \n\nBeryllium has an atomic number of 4, an atomic mass of 9 and a charge of 2+"
             chemImg.image = metalBond
             
         case "sodium", "na":
             chemName = "sodium"
-            chemInfo.text = "Sodium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 97.81°C and a boiling point of 882.9°C. \n\nSodium has an atomic number of 11, an atomic mass of 23 and a charge of +"
+            chemInfo.text = "Sodium has the chemical symbol of Na and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 97.81°C and a boiling point of 882.9°C. \n\nSodium has an atomic number of 11, an atomic mass of 23 and a charge of +"
             chemImg.image = metalBond
             
         case "magnesium", "mg":
             chemName = "magnesium"
-            chemInfo.text = "Magnesium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 650°C and a boiling point of 1,090°C. \n\nMagnesium has an atomic number of 12, an atomic mass of 24 and a charge of 2+"
+            chemInfo.text = "Magnesium has the chemical symbol of Mg and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 650°C and a boiling point of 1,090°C. \n\nMagnesium has an atomic number of 12, an atomic mass of 24 and a charge of 2+"
             chemImg.image = metalBond
             
         case "aluminium", "al":
             chemName = "aluminium"
-            chemInfo.text = "Aluminium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 660.32°C and a boiling point of 2470°C. \n\nAluminium has an atomic number of 13, an atomic mass of 27 and a charge of 3+"
+            chemInfo.text = "Aluminium has the chemical symbol of Al and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 660.32°C and a boiling point of 2470°C. \n\nAluminium has an atomic number of 13, an atomic mass of 27 and a charge of 3+"
             chemImg.image = metalBond
             
         case "potassium", "k":
             chemName = "potassium"
-            chemInfo.text = "Potassium is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 63.28°C and a boiling point of 760°C. \n\nPotassium has an atomic number of 19, an atomic mass of 39 and a charge of 1+"
+            chemInfo.text = "Potassium has the chemical symbol of K and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 63.28°C and a boiling point of 760°C. \n\nPotassium has an atomic number of 19, an atomic mass of 39 and a charge of 1+"
             chemImg.image = metalBond
             
         case "calcium", "ca":
             chemName = "calcium"
-            chemInfo.text = "Calcium is a silver coloured metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 842°C and a boiling point of 1484°C. \n\nCalcium has an atomic number of 20, an atomic mass of 40 and a charge of 2+"
+            chemInfo.text = "Calcium has the chemical symbol of Ca and is a silver coloured metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 842°C and a boiling point of 1484°C. \n\nCalcium has an atomic number of 20, an atomic mass of 40 and a charge of 2+"
             chemImg.image = metalBond
             
         case "rubidium", "rb":
             chemName = "rubidium"
-            chemInfo.text = "Rubidium is a grey white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.48 °C and a bouling point of 688 °C. \n\nRubidium has an atomic number of 37, an atomic mass of 85 and a charge of 1+"
+            chemInfo.text = "Rubidium has the chemical symbol of Rb and is a grey white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.48 °C and a bouling point of 688 °C. \n\nRubidium has an atomic number of 37, an atomic mass of 85 and a charge of 1+"
             chemImg.image = metalBond
             
         case "strontium", "Sr":
             chemName = "strontium"
-            chemInfo.text = "Strontium is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 777 ºC and a boiling point of 1733 ºC. \n\nStrontium has a atomic number of 38 and a atomic mass of 88 and a charge of 2+"
+            chemInfo.text = "Strontium has the chemical symbol of Sr and is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 777 ºC and a boiling point of 1733 ºC. \n\nStrontium has a atomic number of 38 and a atomic mass of 88 and a charge of 2+"
             chemImg.image = metalBond
             
         case "caesium", "cs":
             chemName = "caesium"
-            chemInfo.text = "Caesium is pale gold metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 28.5 ºC and a boiling point of 671 ºC. \n\nCaesium has a atomic number of 55 and a atomic mass of 133 and a charge of 1+"
+            chemInfo.text = "Caesium has the chemical symbol of Cs and is a pale gold metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 28.5 ºC and a boiling point of 671 ºC. \n\nCaesium has a atomic number of 55 and a atomic mass of 133 and a charge of 1+"
             chemImg.image = metalBond
             
         case "barium", "ba":
             chemName = "barium"
-            chemInfo.text = "Barium is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has a atomic number of 56 and a atomic mass of 137 and a charge of 2+"
+            chemInfo.text = "Barium has the chemical symbol of Ba and is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has a atomic number of 56 and a atomic mass of 137 and a charge of 2+"
             chemImg.image = metalBond
             
         case "francium", "fr":
             chemName = "francium"
-            chemInfo.text = "Francium is a silver gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 30 °C and a boiling point of 680 ºC \n\nFrancium has a atomic number of 87 and a atomic mass of 223 and a charge of +"
+            chemInfo.text = "Francium has the chemical symbol of Fr and is a silver gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 30 °C and a boiling point of 680 ºC \n\nFrancium has a atomic number of 87 and a atomic mass of 223 and a charge of +"
             chemImg.image = metalBond
             
         case "radium", "ra":
             chemName = "radium"
-            chemInfo.text = "Radium is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 700 °C and a boiling point of 1737 ºC \n\nRadium  has a atomic number of 88 and a atomic of 226 and a charge of 2+"
+            chemInfo.text = "Radium has the chemical symbol of Ra and is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 700 °C and a boiling point of 1737 ºC \n\nRadium  has a atomic number of 88 and a atomic of 226 and a charge of 2+"
             chemImg.image  = metalBond
             
             //TODO: - FINISH UP METALS FOR PERIODIC TABLE
@@ -380,42 +380,42 @@ class StructViewController: UIViewController {
             
         case "boron", "b":
             chemName = "boron"
-            chemInfo.text = "Boron is a black-brown metalloid in its solid state at room temperature. \n\nIt usually has a covalent bond, with a melting point of 2076°C and a boiling point of 3927°C. \n\nBoron has an atomic number of 5 and an atomic mass of 11."
+            chemInfo.text = "Boron has the chemical symbol of B and is a black-brown metalloid in its solid state at room temperature. \n\nIt usually has a covalent bond, with a melting point of 2076°C and a boiling point of 3927°C. \n\nBoron has an atomic number of 5 and an atomic mass of 11."
             chemImg.image = UIImage(named: chemName)
             
         case "silicon", "si":
             chemName = "silicon"
-            chemInfo.text = "Silicon is a shiny and blueish-tinged metalloid in its solid state at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 1414°C and a boiling point of 3265°C. \n\nSilicon has an atomic number of 14 and an atomic mass of 28."
+            chemInfo.text = "Silicon has the chemical symbol of Si and is a shiny and blueish-tinged metalloid in its solid state at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 1414°C and a boiling point of 3265°C. \n\nSilicon has an atomic number of 14 and an atomic mass of 28."
             chemImg.image = UIImage(named: chemName)
             
         case "germainium", "ge":
             chemName = "germanium"
-            chemInfo.text = "Germanium is a grayish white metalloid at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 932.8ºC and a boiling point of 2,833°C. \n\nGermanium has an atomic number of 32 and an atomic mass of 73."
+            chemInfo.text = "Germanium has the chemical symbol of Ge and is a grayish white metalloid at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 932.8ºC and a boiling point of 2,833°C. \n\nGermanium has an atomic number of 32 and an atomic mass of 73."
             chemImg.image = UIImage(named: chemName)
             
         case "arsenic", "as":
             chemName = "arsenic"
-            chemInfo.text = "Arsenic is a Metallic grey metalloid in its solid state at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 816.8ºC and a boiling point of 613ºC.\n\nArsenic has an atomic number of 33 and an atomic mass of 75."
+            chemInfo.text = "Arsenic has the chemical symbol of As and is a metallic grey metalloid in its solid state at room temperature. \n\nIt usually shares a covalent bond, with a melting point of 816.8ºC and a boiling point of 613ºC.\n\nArsenic has an atomic number of 33 and an atomic mass of 75."
             chemImg.image = UIImage(named: chemName)
             
         case "antimony", "Sb":
             chemName = "antimony"
-            chemInfo.text = "Antimony is a lustrous silvery, bluish white metalloid solid at room temperature. \n\nIt has a melting point of 630.6ºC and a boiling point of 1,587°C.\n\nAntimony has an atomic number of 51 and an atomic mass of 122."
+            chemInfo.text = "Antimony has the chemical symbol of Sb and is a lustrous silvery, bluish white metalloid solid at room temperature. \n\nIt has a melting point of 630.6ºC and a boiling point of 1,587°C.\n\nAntimony has an atomic number of 51 and an atomic mass of 122."
             chemImg.image = UIImage(named: chemName)
 
         case "tellurium", "te":
             chemName = "tellurium"
-            chemInfo.text = "Tellurium is a silver white metalloid in its solid state at room temperature.\n\nIt usually shares a covalent bond, has a melting point of 449.51°C and a boiling point of 988ºC.\n\nTellurium has an atomic number of 52 and an atomic mass of 128."
+            chemInfo.text = "Tellurium has the chemical symbol of Te and is a silver white metalloid in its solid state at room temperature.\n\nIt usually shares a covalent bond, has a melting point of 449.51°C and a boiling point of 988ºC.\n\nTellurium has an atomic number of 52 and an atomic mass of 128."
             chemImg.image = UIImage(named: chemName)
 
         case "astatine", "at":
             chemName = "astatine"
-            chemInfo.text = "Astatine has no known colours. \n\nIt has a metallic bond with an estimated melting point of 302°C and an estimated boiling point of 336.8°C.\n\nThe properties and structure of Astatine are not well known as any visible samples would vaporise itself due to the heat generated from its own radioactivity.\n\nAstatine has an atomic number of 85 and an atomic mass of 210."
+            chemInfo.text = "Astatine has the chemical symbol of At and has no known colours. \n\nIt has an estimated melting point of 302°C and an estimated boiling point of 336.8°C.\n\nThe properties and structure of Astatine are not well known as any visible samples would vaporise itself due to the heat generated from its own radioactivity.\n\nAstatine has an atomic number of 85 and an atomic mass of 210."
             chemImg.image = UIImage(named: chemName)
             
         case "polonium", "po":
             chemName = "polonium"
-            chemInfo.text = "Polonium is a silvery metalloid in its solid state at room temperature. \n\nIt has a melting point of 254°C and a boiling point of 962°C. \n\nPolonium has an atomic number of 84 and an atomic mass of 209."
+            chemInfo.text = "Polonium has the chemical symbol of Po and is a silvery metalloid in its solid state at room temperature. \n\nIt has a melting point of 254°C and a boiling point of 962°C. \n\nPolonium has an atomic number of 84 and an atomic mass of 209."
             chemImg.image = noimg
             
             
@@ -427,19 +427,38 @@ class StructViewController: UIViewController {
             
         case "hydrogen", "h":
             chemName = "hydrogen"
-            chemInfo.text = "Hydrogen is a colourless gas at room temperature. \n\nHydrogen GAS has a covalent bond with a melting point of −259.16°C and a boiling point of −252.879°C. \n\nHydrogen has an atomic number of 1 and an atomic mass of 1"
+            chemInfo.text = "Hydrogen has the chemical symbol of H and exists as H₂, a colourless, odorless and highly flammable gas at room temperature. \n\nHydrogen GAS has as a simple/discreet structure, with a melting point of −259.16°C and a boiling point of −252.879°C. \n\nHydrogen has an atomic number of 1 and an atomic mass of 1"
             chemImg.image = UIImage(named: chemName)
             
         case "carbon", "c":
             chemName = "carbon"
-            chemInfo.text = "Carbon is a black metal at room temperature. \n\nCarbon has a covalent bond with a sublimation(solid to gas) point of 3642 ºC. \n\nCarbon has an atomic number of 6 and a atomic mass of 12"
+            chemInfo.text = "Carbon has the chemical symbol of C and form covalent bonds with other elements, and has a sublimation (solid to gas) point of 3642 ºC. \n\nCarbon has an atomic number of 6 and an atomic mass of 12. \n\nCarbon has many allotropes, such as graphite, diamonds et cetera."
+            chemImg.image = noimg
+            
+        case "nitrogen", "n":
+            chemName = "nitrogen"
+            chemInfo.text = "Nitrogen has the chemical symbol of N and exists as N₂, a colourless, odorless gas at room temperature. \n\nNitrogen GAS has as a simple/discreet structure, with a melting point of -210 ºC and a boiling point of of -195 ºC. \n\nNitrogen has an atomic number of 7 and an atomic mass of 14."
             chemImg.image = UIImage(named: chemName)
             
-        case "nitrogen", "N":
-            chemName = "nitrogen"
-            chemInfo.text = "Nitrogen is a colourless gas at room temperature. \n\nNitrogen gas has a covalent bond with a melting point of -210 ºC and a boiling point of of -195 ºC. \n\nNitrogen has an atomic number of 7 and a atomic mas of 14"
+        case "fluorine", "f":
+            chemName = "fluorine"
+            chemInfo.text = "Fluorine has the chemical symbol of F and exists as F₂, a pale yellow and highly toxic gas at room temperature.\n\nFluorine GAS has a simple/discreet structure, with a melting point of -219.67ºC and a boiling point of of -188.11ºC. \n\nFluorine has an atomic number of 9 and an atomic mass of 19."
             chemImg.image = UIImage(named: chemName)
-        
+            
+        case "phosphorus", "p", "tetraphosphorus":
+            chemName = "phosphorus"
+            chemInfo.text = "Phosphorus has the chemical symbol P, and has many different colours for each allotrope, from colourless, waxy white, yellow, scarlet, red, violet to black.\n\nThe most common allotropes are red and white phosphorus (P₄). \n\nPhosphorus as an element has an atomic number of 15 and an atomic mass of 31."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "sulfur", "sulphur", "s":
+            chemName = "sulfur"
+            chemInfo.text = "Sulfur, or sulphur, has the chemical symbol of S and exists as a bright yellow crystal at room temperature. \n\nSulfur has a melting point of 115.21°C and a boiling point of 444.6°C. \n\nIt's most well known allotrope has the chemical formula of S₈. \n\nSulfur has an atomic number of 16 and an atomic mass of 32."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "chlorine", "cl":
+            chemName = "chlorine"
+            chemInfo.text = "Chlorine has the chemical symbol of Cl and exists as Cl₂, a yellow-green gas at room temperature. \n\nIt has a melting point of −101.5°C and a boiling point of -34.04°C. \n\nChlorine has an atomic number of 17 and an atomic mass of 35.5."
+            chemImg.image = UIImage(named: chemName)
             
             //TODO: - FINISH NON-METALS OF PERIODIC TABLES
             
