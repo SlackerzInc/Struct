@@ -357,22 +357,114 @@ class StructViewController: UIViewController {
             chemInfo.text = "Vanadium has the chemical symbol of V and is a hard, silvery-grey and ductile metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1910°C and a boiling point of 3407°C. \n\nVanadium has an atomic number of 23 and an atomic mass of 51."
             chemImg.image = metalBond
             
+        case "chromium", "cr":
+            chemName = "chromium"
+            chemInfo.text = "Chromium has the chemical symbol of Cr and is a brittle, steely-grey and lustrous metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1907°C and a boiling point of 2671°C. \n\nChromium has an atomic number of 24 and an atomic mass of 52."
+            chemImg.image = metalBond
             
+        case "manganese", "mn":
+            chemName = "manganese"
+            chemInfo.text = "Manganese has the chemical symbol of Mn and is a brittle, silvery-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1246°C and a boiling point of 2061°C. \n\nManganese has an atomic number of 25 and an atomic mass of 55."
+            chemImg.image = metalBond
             
+        case "iron", "fe":
+            chemName = "iron"
+            chemInfo.text = "Iron has the chemical symbol of Fe and is a greyishy and lustrous metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1538°C and a boiling point of 2862°C. \n\nIron has an atomic number of 26, an atomic mass of 56 and usually has a charge of 2+ or 3+."
+            chemImg.image = metalBond
             
+        case "cobalt", "Co":
+            chemName = "vanadium"
+            chemInfo.text = "Cobalt has the chemical symbol of Co and is a hard, lustrous and silver-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1495°C and a boiling point of 2927°C. \n\nCobalt has an atomic number of 27 and an atomic mass of 59."
+            chemImg.image = metalBond
             
+        case "nickel", "ni":
+            chemName = "nickel"
+            chemInfo.text = "Nickel has the chemical symbol of Ni and is a hard, silvery-white and ductile metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1455°C and a boiling point of 2730°C. \n\nVanadium has an atomic number of 28 and an atomic mass of 59."
+            chemImg.image = metalBond
             
+        case "copper", "cu":
+            chemName = "copper"
+            chemInfo.text = "Copper has the chemical symbol of Cu and is a soft, malleable, reddish-orange and ductile metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1084.62°C and a boiling point of 2562°C. \n\nCopper has an atomic number of 29, an atomic mass of 64 and it usually has a charge of 2+."
+            chemImg.image = metalBond
             
+        case "zinc", "zn":
+            chemName = "copper"
+            chemInfo.text = "Zinc has the chemical symbol of Zn and is a silver-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 419.53°C and a boiling point of 907°C. \n\nZinc has an atomic number of 30, an atomic mass of 65 and it usually has a charge of 2+."
+            chemImg.image = metalBond
             
+        case "gallium", "ga":
+            chemName = "gallium"
+            chemInfo.text = "Gallium has the chemical symbol of Ga and is a soft, silvery-blue metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 29.7646°C and a boiling point of 2400°C, meaning that it would melt in the hands of a person. \n\nGallium has an atomic number of 31 and an atomic mass of 70."
+            chemImg.image = metalBond
             
         case "rubidium", "rb":
             chemName = "rubidium"
-            chemInfo.text = "Rubidium has the chemical symbol of Rb and is a grey white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.48 °C and a bouling point of 688 °C. \n\nRubidium has an atomic number of 37, an atomic mass of 85 and a charge of 1+"
+            chemInfo.text = "Rubidium has the chemical symbol of Rb and is a very soft, silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 39.30°C and a boiling point of 688°C. \n\nRubidium has an atomic number of 37 and an atomic mass of 85."
             chemImg.image = metalBond
             
         case "strontium", "Sr":
             chemName = "strontium"
-            chemInfo.text = "Strontium has the chemical symbol of Sr and is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 777 ºC and a boiling point of 1733 ºC. \n\nStrontium has a atomic number of 38 and a atomic mass of 88 and a charge of 2+"
+            chemInfo.text = "Strontium has the chemical symbol of Sr and is a silvery white metal with a pale yellow tint in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 777ºC and a boiling point of 1377ºC. \n\nStrontium has an atomic number of 38 and an atomic mass of 88"
+            chemImg.image = metalBond
+            
+        case "yttrium", "y":
+            chemName = "yttrium"
+            chemInfo.text = "Yttrium has the chemical symbol of Y and is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1526°C and a boiling point of 2930°C.\n\nYttrium has an atomic number of 39 and an atomic mass of 89."
+            chemImg.image = metalBond
+            
+        case "zirconium", "zr":
+            chemName = "zirconium"
+            chemInfo.text = "Zirconium has the chemical symbol of Zr and is a soft, ductile and silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1855°C and a boiling point of 4377°C.\n\nZirconium has an atomic number of 40 and an atomic mass of 91."
+            chemImg.image = metalBond
+            
+        case "niobium", "nb":
+            chemName = "niobium"
+            chemInfo.text = "Niobium has the chemical symbol of Nb and is a grey metal in its solid state at room temperature. It has a bluish tint when oxidised. \n\nIt has a metallic bond with a melting point of 2477°C and a boiling point of 4744°C.\n\nNiobium has an atomic number of 41 and an atomic mass of 93."
+            chemImg.image = metalBond
+            
+        case "molybdenum", "mo":
+            chemName = "molybdenum"
+            chemInfo.text = "Molybdenum has the chemical symbol of Mo and is a silvery-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2623°C and a boiling point of 4639°C.\n\nMolybdenum has an atomic number of 42 and an atomic mass of 96."
+            chemImg.image = metalBond
+            
+        case "technetium", "tc":
+            chemName = "technetium"
+            chemInfo.text = "Technetium has the chemical symbol of Tc and is a silvery-grey radioactive metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2157°C and a boiling point of 4265°C.\n\nTechnetium has an atomic number of 43 and as none of its isotopes are stable, the atomic mass of its most stable isotope, (98), is used."
+            chemImg.image = metalBond
+            
+        case "ruthenium", "ru":
+            chemName = "ruthenium"
+            chemInfo.text = "Ruthenium has the chemical symbol of Ru and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2334°C and a boiling point of 4150°C.\n\nRuthenium has an atomic number of 44 and an atomic mass of 101."
+            chemImg.image = metalBond
+            
+        case "rhodium", "rh":
+            chemName = "rhodium"
+            chemInfo.text = "Rhodium has the chemical symbol of Rh and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1964°C and a boiling point of 3695°C.\n\nRhodium has an atomic number of 45 and an atomic mass of 103."
+            chemImg.image = metalBond
+            
+        case "palladium", "pd":
+            chemName = "palladium"
+            chemInfo.text = "Palladium has the chemical symbol of Pd and is a soft and ductile silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1554.9°C and a boiling point of 2963°C.\n\nPalladium has an atomic number of 46 and an atomic mass of 106."
+            chemImg.image = metalBond
+            
+        case "silver", "ag":
+            chemName = "silver"
+            chemInfo.text = "Silver has the chemical symbol of Ag and is a soft, lustrous white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 961.78°C and a boiling point of 2162°C.\n\nSilver has an atomic number of 47 and an atomic mass of 108."
+            chemImg.image = metalBond
+            
+        case "cadmium", "cd":
+            chemName = "cadmium"
+            chemInfo.text = "Cadmium has the chemical symbol of Cd and is a soft, malleable and ductile silvery bluish-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 321.07°C and a boiling point of 767°C.\n\nCadmium has an atomic number of 48 and an atomic mass of 112."
+            chemImg.image = metalBond
+            
+        case "indium", "in":
+            chemName = "indium"
+            chemInfo.text = "Indium has the chemical symbol of In and is an extremely soft and ductile silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 156.5985°C and a boiling point of 2072°C.\n\nIndium has an atomic number of 49 and an atomic mass of 115."
+            chemImg.image = metalBond
+            
+        case "tin", "sn":
+            chemName = "tin"
+            chemInfo.text = "Tin has the chemical symbol of Sn and is a soft, malleable and ductile silvery-white or grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 231.93°C and a boiling point of 2602°C.\n\nTin has an atomic number of 50 and an atomic mass of 119."
             chemImg.image = metalBond
             
         case "caesium", "cs":
@@ -385,6 +477,66 @@ class StructViewController: UIViewController {
             chemInfo.text = "Barium has the chemical symbol of Ba and is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has a atomic number of 56 and a atomic mass of 137 and a charge of 2+"
             chemImg.image = metalBond
             
+        case "hafnium", "hf":
+            chemName = "hafnium"
+            chemInfo.text = "Hafnium has the chemical symbol of Hf and is a ductile, corrosion-resistant steel-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2233°C and a boiling point of 4603°C.\n\nHafnium has an atomic number of 72 and an atomic mass of 178."
+            chemImg.image = metalBond
+            
+        case "tantalum", "ta":
+            chemName = "tantalum"
+            chemInfo.text = "Tantalum has the chemical symbol of Ta and is a ductile, corrosion-resistant and hard blue-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 3017°C and a boiling point of 5458°C.\n\nTantalum has an atomic number of 73 and an atomic mass of 181."
+            chemImg.image = metalBond
+            
+        case "tungsten", "w", "wolfram":
+            chemName = "tungsten"
+            chemInfo.text = "Tungsten, also known as Wolfram, has the chemical symbol of N and in its raw form, is a brittle and hard steel-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 3422°C and a boiling point of 5930°C.\n\nTungsten has an atomic number of 74 and an atomic mass of 184."
+            chemImg.image = metalBond
+            
+        case "rhenium", "re":
+            chemName = "rhenium"
+            chemInfo.text = "Rhenium has the chemical symbol of Re and is a silvery-greyish metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 3186°C and a boiling point of 5630°C.\n\nRhenium has an atomic number of 75 and an atomic mass of 186."
+            chemImg.image = metalBond
+            
+        case "osmium", "os":
+            chemName = "osmium"
+            chemInfo.text = "Osmium has the chemical symbol of Os and is a hard, brittle, bluish-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 3033°C and a boiling point of 5012°C.\n\nOsmium has an atomic number of 76 and an atomic mass of 190."
+            chemImg.image = metalBond
+            
+        case "iridium", "ir":
+            chemName = "iridium"
+            chemInfo.text = "Iridium has the chemical symbol of Ir and is a hard, brittle, silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 2446°C and a boiling point of 4130°C.\n\nIridium has an atomic number of 77 and an atomic mass of 192."
+            chemImg.image = metalBond
+            
+        case "platinum", "pt":
+            chemName = "platinum"
+            chemInfo.text = "Platinum has the chemical symbol of Pt and is a malleable, ductile and highly unreactive silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1768.3°C and a boiling point of 3825°C.\n\nPlatinum has an atomic number of 78 and an atomic mass of 195."
+            chemImg.image = metalBond
+            
+        case "gold", "au":
+            chemName = "gold"
+            chemInfo.text = "Gold has the chemical symbol of Au and is a highly malleable, ductile and unreactive reddish-yellow metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1064.18°C and a boiling point of 2970°C.\n\nGold has an atomic number of 79 and an atomic mass of 197."
+            chemImg.image = metalBond
+            
+        case "mercury", "hg":
+            chemName = "mercury"
+            chemInfo.text = "Mercury has the chemical symbol of Hg and is a silvery liquid at room temperature. \n\nIt has a metallic bond with a melting point of -38.829°C and a boiling point of 356.73°C.\n\nMercury has an atomic number of 80 and an atomic mass of 201."
+            chemImg.image = metalBond
+            
+        case "thallium", "tl":
+            chemName = "thallium"
+            chemInfo.text = "Thallium has the chemical symbol of Tl and is a silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 304°C and a boiling point of 1473°C.\n\nThallium has an atomic number of 81 and an atomic mass of 204."
+            chemImg.image = metalBond
+            
+        case "lead", "pb":
+            chemName = "lead"
+            chemInfo.text = "Lead has the chemical symbol of Pb and is a soft and malleable grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 327.46°C and a boiling point of 1749°C.\n\nLead has an atomic number of 82 and an atomic mass of 207."
+            chemImg.image = metalBond
+            
+        case "bismuth", "bi":
+            chemName = "bismuth"
+            chemInfo.text = "Bismuth has the chemical symbol of Bi and is a lustrous brownish-silver metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 271.5°C and a boiling point of 1564°C.\n\nBismuth has an atomic number of 83 and an atomic mass of 209."
+            chemImg.image = metalBond
+            
         case "francium", "fr":
             chemName = "francium"
             chemInfo.text = "Francium has the chemical symbol of Fr and is a silver gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 30 °C and a boiling point of 680 ºC \n\nFrancium has a atomic number of 87 and a atomic mass of 223 and a charge of +"
@@ -395,7 +547,89 @@ class StructViewController: UIViewController {
             chemInfo.text = "Radium has the chemical symbol of Ra and is a silvery white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 700 °C and a boiling point of 1737 ºC \n\nRadium  has a atomic number of 88 and a atomic of 226 and a charge of 2+"
             chemImg.image  = metalBond
             
-            //TODO: - FINISH UP METALS FOR PERIODIC TABLE
+        case "rutherfordium", "rf":
+            chemName = "rutherfordium"
+            chemInfo.text = "Rutherfordium is a radioactive synthetic element and has the chemical symbol of Rf. It is predicted to be a solid at room temperature. \n\nIt has an estimated melting point of 2100°C and an estimated boiling point of 5500°C.\n\nRutherfordium has an atomic number of 104 and its most stable isotope has an atomic mass of 267. \n\nDue to Rutherfordium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "dubnium", "db":
+            chemName = "dubnium"
+            chemInfo.text = "Dubnium is a radioactive synthetic element and has the chemical symbol of Db. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nDubnium has an atomic number of 105 and its most stable isotope has an atomic mass of 268. \n\nDue to Dubnium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "seaborgium", "sg":
+            chemName = "seaborgium"
+            chemInfo.text = "Seaborgium is a radioactive synthetic element and has the chemical symbol of Sg. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nSeaborgium has an atomic number of 106 and its most stable isotope has an atomic mass of 269. \n\nDue to Seaborgium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "bohrium", "bh":
+            chemName = "bohrium"
+            chemInfo.text = "Bohrium is a radioactive synthetic element and has the chemical symbol of Bh. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nBohrium has an atomic number of 107 and its most stable isotope has an atomic mass of 270. \n\nDue to Bohrium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "hassium", "hs":
+            chemName = "hassium"
+            chemInfo.text = "Hassium is a radioactive synthetic element and has the chemical symbol of Hs. It is predicted to be a silvery solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nHassium has an atomic number of 108 and its most stable isotope has an atomic mass of 270. \n\nDue to Hassium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "meitnerium", "mt":
+            chemName = "meitnerium"
+            chemInfo.text = "Meitnerium is an extremely radioactive synthetic element and has the chemical symbol of Mt. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nMeitnerium has an atomic number of 109 and its most stable isotope has an atomic mass of 278. \n\nDue to Meitnerium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "darmstadtium", "ds":
+            chemName = "darmstadtium"
+            chemInfo.text = "Darmstadtium is an extremely radioactive synthetic element and has the chemical symbol of Ds. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nDarmstadtium has an atomic number of 110 and its most stable isotope has an atomic mass of 281. \n\nDue to Darmstadtium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+
+        case "roentgenium", "rg":
+            chemName = "roentgenium"
+            chemInfo.text = "Roentgenium is an extremely radioactive synthetic element and has the chemical symbol of Rg. It is predicted to be a solid at room temperature. \n\nIt has no determined melting point or boiling point. \n\nDarmstadtium has an atomic number of 111 and its most stable isotope has an atomic mass of 282. \n\nDue to Darmstadtium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "copernicium", "cn":
+            chemName = "copernicium"
+            chemInfo.text = "Copernicium is an extremely radioactive synthetic element and has the chemical symbol of Cn. It is predicted to be a gas at room temperature. \n\nIt has an undetermined melting point but a boiling point of 84+₁₁₂-¹⁰⁸°C. \n\nCopernicium has an atomic number of 112 and its most stable isotope has an atomic mass of 285. \n\nDue to Copernicium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "nihonium", "nh":
+            chemName = "nihonium"
+            chemInfo.text = "Nihonium is an extremely radioactive synthetic element and has the chemical symbol of Nh. It is predicted to be a solid at room temperature. \n\nIt has a predicted melting point of 430°C and a predicted boiling point of 1130°C. \n\nNihonium has an atomic number of 113 and its most stable isotope has an atomic mass of 286. \n\nDue to Nihonium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "flerovium", "fl":
+            chemName = "flerovium"
+            chemInfo.text = "Flerovium is an extremely radioactive synthetic element and has the chemical symbol of Fl. It is predicted to be a gas at room temperature. \n\nIt has an undetermined melting point but a boiling point of -60°C. \n\nFlerovium has an atomic number of 114 and its most stable isotope has an atomic mass of 289. \n\nDue to Flerovium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "moscovium", "mc":
+            chemName = "moscovium"
+            chemInfo.text = "Moscovium is an extremely radioactive synthetic element and has the chemical symbol of Mc. It is predicted to be a solid at room temperature. \n\nIt has a predicted melting point of 400°C and a predicted boiling point of -1100°C. \n\nMoscovium has an atomic number of 115 and its most stable isotope has an atomic mass of 290. \n\nDue to Moscovium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "livermorium", "lv":
+            chemName = "livermorium"
+            chemInfo.text = "Livermorium is an extremely radioactive synthetic element and has the chemical symbol of Lv. It is predicted to be a solid at room temperature. \n\nIt has an extrapolated melting point of 364–507°C and an extrapolated boiling point of 762–862°C. \n\nLivermorium has an atomic number of 116 and its most stable isotope has an atomic mass of 293. \n\nDue to Livermorium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "tennessine", "ts":
+            chemName = "tennessine"
+            chemInfo.text = "Tennerssine is an extremely radioactive synthetic element and has the chemical symbol of Ts. It is predicted to be a solid at room temperature. \n\nIt has a predicted melting point of 350–550°C and a predicted boiling point of 610°C. \n\nTennessine has an atomic number of 117 and its most stable isotope has an atomic mass of 294. \n\nDue to Livermorium having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+            
+        case "oganesson", "og":
+            chemName = "oganesson"
+            chemInfo.text = "Oganesson is an extremely radioactive synthetic element and has the chemical symbol of Og. It is predicted to be a solid at room temperature. \n\nIt has an undetermined melting point and a predicted boiling point of 80±30°C. \n\nOganesson has an atomic number of 118 and its most stable isotope has an atomic mass of 294. \n\nDue to Oganesson having an extremely short half-life, its properties are not well known."
+            chemImg.image = metalBond
+
+            
+            //MARK: - LANTHANOIDS
+            
+            //TODO: - FINISH LANTHANOIDS
+            
+            //MARK: - ACTINOIDS
+            
+            //TODO: - FINISH ACTINOIDS
             
             
             
@@ -455,12 +689,27 @@ class StructViewController: UIViewController {
             
         case "carbon", "c":
             chemName = "carbon"
-            chemInfo.text = "Carbon has the chemical symbol of C and form covalent bonds with other elements, and has a sublimation (solid to gas) point of 3642 ºC. \n\nCarbon has an atomic number of 6 and an atomic mass of 12. \n\nCarbon has many allotropes, such as graphite, diamonds et cetera."
+            chemInfo.text = "Carbon has the chemical symbol of C and form covalent bonds with other elements, and has a sublimation (solid to gas) point of 3642ºC. \n\nCarbon has an atomic number of 6 and an atomic mass of 12. \n\nCarbon has many allotropes, such as graphite, diamonds et cetera."
             chemImg.image = noimg
+            
+        case "diamond":
+            chemName = "diamond"
+            chemInfo.text = "Diamond is a solid allotrope of carbon and is formed under high pressure. It has a tetrahedral structure held by strong covalent bonds, resulting in high melting points, high boiling points and its high strength."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "graphite":
+            chemName = "graphite"
+            chemInfo.text = "Graphite ia a solid allotrope of carbon and it has a giant molecular structure, where the carbon atoms are arranged hexagonally in layers. Each layer is held by Van der Waals' forces of attraction, while each carbon atom is held by strong covalent bonds. Thus, graphite has a high melting and boiling point but it is soft."
+            chemImg.image = UIImage(named: chemName)
             
         case "nitrogen", "n":
             chemName = "nitrogen"
-            chemInfo.text = "Nitrogen has the chemical symbol of N and exists as N₂, a colourless, odorless gas at room temperature. \n\nNitrogen GAS has as a simple/discreet structure, with a melting point of -210 ºC and a boiling point of of -195 ºC. \n\nNitrogen has an atomic number of 7 and an atomic mass of 14."
+            chemInfo.text = "Nitrogen has the chemical symbol of N and exists as N₂, a colourless, odorless gas at room temperature. \n\nNitrogen GAS has as a simple/discreet structure, with a melting point of -210ºC and a boiling point of of -195ºC. \n\nNitrogen has an atomic number of 7 and an atomic mass of 14."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "oxygen", "o":
+            chemName = "oxygen"
+            chemInfo.text = "Oxygen has the chemical symbol of O and exists as O₂, a colourless, odorless gas at room temperature or O₃ (ozone), which is a pale blue and pungent gas. \n\nOxygen GAS (O₂) has as a simple/discreet structure, with a melting point of −218.79ºC and a boiling point of −182.962ºC. \n\nOxygen has an atomic number of 8 and an atomic mass of 16."
             chemImg.image = UIImage(named: chemName)
             
         case "fluorine", "f":
@@ -483,7 +732,20 @@ class StructViewController: UIViewController {
             chemInfo.text = "Chlorine has the chemical symbol of Cl and exists as Cl₂, a yellow-green gas at room temperature. \n\nIt has a melting point of −101.5°C and a boiling point of -34.04°C. \n\nChlorine has an atomic number of 17 and an atomic mass of 35.5."
             chemImg.image = UIImage(named: chemName)
             
-            //TODO: - FINISH NON-METALS OF PERIODIC TABLES
+        case "selenium", "se":
+            chemName = "selenium"
+            chemInfo.text = "Selenium has the chemical symbol of Se and its allotropes exists as a black, red or grey solid at room temperature. \n\nIt has a melting point of −221°C and a boiling point of 685°C. \n\nSelenium has an atomic number of 34 and an atomic mass of 79."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "bromine", "br":
+            chemName = "bromine"
+            chemInfo.text = "Bromine has the chemical symbol of Br and exists as Br₂, a reddish-brown liquid at room temperature. \n\nIt has a melting point of −7.2°C and a boiling point of 58.8°C. \n\nBromine has an atomic number of 35 and an atomic mass of 80."
+            chemImg.image = UIImage(named: chemName)
+            
+        case "iodine", "i":
+            chemName = "iodine"
+            chemInfo.text = "Iodine has the chemical symbol of I and exists as I₂, a lustrous metallic gray solid at room temperature. \n\nIt has a melting point of 113.7°C and a boiling point of 184.3°C. \n\nIodine has an atomic number of 53 and an atomic mass of 127."
+            chemImg.image = UIImage(named: chemName)
             
             
             
@@ -527,7 +789,7 @@ class StructViewController: UIViewController {
             
         default:
             chemInfo.text = "Currently unavailable, please check input or try again later"
-            chemImg.image = nil
+            chemImg.image = noimg
        
         }
     }
