@@ -469,12 +469,12 @@ class StructViewController: UIViewController {
             
         case "caesium", "cs":
             chemName = "caesium"
-            chemInfo.text = "Caesium has the chemical symbol of Cs and is a pale gold metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 28.5 ºC and a boiling point of 671 ºC. \n\nCaesium has a atomic number of 55 and a atomic mass of 133 and a charge of 1+"
+            chemInfo.text = "Caesium has the chemical symbol of Cs and is a pale gold metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 28.5 ºC and a boiling point of 671 ºC. \n\nCaesium has an atomic number of 55 and an atomic mass of 133."
             chemImg.image = metalBond
             
         case "barium", "ba":
             chemName = "barium"
-            chemInfo.text = "Barium has the chemical symbol of Ba and is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has a atomic number of 56 and a atomic mass of 137 and a charge of 2+"
+            chemInfo.text = "Barium has the chemical symbol of Ba and is a silvery gray metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 727 ºC and a boiling point of 1845 ºC. \n\nBarium has an atomic number of 56 and an atomic mass of 137."
             chemImg.image = metalBond
             
         case "hafnium", "hf":
@@ -624,6 +624,31 @@ class StructViewController: UIViewController {
 
             
             //MARK: - LANTHANOIDS
+            
+        case "lanthanum", "la":
+            chemName = "lanthanum"
+            chemInfo.text = "Lanthanum has the chemical symbol of La and is a soft, ductile and silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 920 ºC and a boiling point of 3464ºC. \n\nLanthanum has an atomic number of 57 and an atomic mass of 139."
+            chemImg.image = metalBond
+            
+        case "cerium", "ce":
+            chemName = "cerium"
+            chemInfo.text = "Cerium has the chemical symbol of Ce and is a soft, ductile and silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 795ºC and a boiling point of 3443ºC. \n\nCerium has an atomic number of 58 and an atomic mass of 140."
+            chemImg.image = metalBond
+            
+        case "Praseodymium", "pr":
+            chemName = "praseodymium"
+            chemInfo.text = "Praseodymium has the chemical symbol of Pr and is a soft, malleable and ductile greyish-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 935ºC and a boiling point of 3130ºC. \n\nPraseodymium has an atomic number of 59 and an atomic mass of 141."
+            chemImg.image = metalBond
+            
+        case "neodymium", "nd":
+            chemName = "neodymium"
+            chemInfo.text = "Neodymium has the chemical symbol of Nd and is a soft, silvery-white metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1024ºC and a boiling point of 3074ºC. \n\nNeodymium has an atomic number of 60 and an atomic mass of 144."
+            chemImg.image = metalBond
+            
+        case "promethium", "pm":
+            chemName = "promethium"
+            chemInfo.text = "Promethium has the chemical symbol of Pm and is extremely radioactive. At room temperature, it is a solid. \n\nIt has a metallic bond with a melting point of 1042ºC and a boiling point of 3000ºC. \n\nPromethium has an atomic number of 6q and its most stable isotope has an atomic mass of 145."
+            chemImg.image = metalBond
             
             //TODO: - FINISH LANTHANOIDS
             
