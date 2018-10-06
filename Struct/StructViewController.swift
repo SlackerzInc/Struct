@@ -781,7 +781,7 @@ class StructViewController: UIViewController {
             
         case "helium", "he":
             chemName = "helium"
-            chemInfo.text = "Helium is a colourless gas at room temperature. \n\nHelium gas is a noble gas with a melting point of −272.20°C and a boiling point of −268.928°C. \n\nHelium has an atomic number of 2 and an atomic mass of 4. \n\nIt exhibits a red-orange glow when placed in an electric field."
+            chemInfo.text = "Helium is a colourless gas at room temperature. \n\nHelium gas is a noble gas with a melting point of −272.20°C at 2.5 megapascals and a boiling point of −268.928°C. \n\nHelium has an atomic number of 2 and an atomic mass of 4. \n\nIt exhibits a red-orange glow when placed in an electric field."
             chemImg.image = UIImage(named: chemName)
             
         case "neon", "ne":
