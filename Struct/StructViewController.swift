@@ -647,12 +647,34 @@ class StructViewController: UIViewController {
             
         case "promethium", "pm":
             chemName = "promethium"
-            chemInfo.text = "Promethium has the chemical symbol of Pm and is extremely radioactive. At room temperature, it is a solid. \n\nIt has a metallic bond with a melting point of 1042ºC and a boiling point of 3000ºC. \n\nPromethium has an atomic number of 6q and its most stable isotope has an atomic mass of 145."
+            chemInfo.text = "Promethium has the chemical symbol of Pm and is extremely radioactive. At room temperature, it is a solid. \n\nIt has a metallic bond with a melting point of 1042ºC and a boiling point of 3000ºC. \n\nPromethium has an atomic number of 61 and its most stable isotope has an atomic mass of 145."
             chemImg.image = metalBond
+            
+        case "samarium", "sm":
+            chemName = "samarium"
+            chemInfo.text = "Samarium has the chemical symbol Sm and is silvery-white metal. At room temperature it is at solid state at room temperature. \n\nIt has metallic bond with a melting point of 1072ºC and a boiling point of 1794ºC. \n\nSamarium has a atomic number of 62 and a atomic mass of 150"
+            chemImg.image = metalBond
+            
+        case "europium", "eu":
+            chemName = "europium"
+            chemInfo.text = "Europium has the chemical symbol Eu and is a silver-white metal with a pale yellow tint. At room temperature it is at solid state at room temperature. \n\nIt has a metallic bond with a melting point of 826ºC and a boiling point of 1529ºC. \n\nEuropium has a atomic number of 63 and a atomic mass of 152."
+            chemImg.image = metalBond
+            
+        case "gadolinium", "Gd":
+            chemName = "gadolinium"
+            chemInfo.text = "Gadolinium has the chemical symbol Gd and is a silver-white metal. It is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1312ºC and a boiling point of 3000ºC. \n\nGadolinium has a atomic number of 64 and a atomic mass of 157."
+            chemImg.image = metalBond
+            
             
             //TODO: - FINISH LANTHANOIDS
             
-            //MARK: - ACTINOIDS
+            //MARK: - ACTINOIDS - attempt 1
+            
+        case "actinium", "ac":
+            chemName = "actinium"
+            chemInfo.text = "Actinium has the chemmical symbol Ac and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1051°C and a boiling point of 3198°C. \n\nActinium has a atomic number of 89 and a atomic mass of (145)."
+            chemImg.image = metalBond
+            
             
             //TODO: - FINISH ACTINOIDS
             
