@@ -657,7 +657,7 @@ class StructViewController: UIViewController {
             //TODO: - FINISH ACTINOIDS
             
             
-            
+        
             //MARK: - METALLOIDS
             
         case "boron", "b":
