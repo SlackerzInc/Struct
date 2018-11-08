@@ -660,9 +660,44 @@ class StructViewController: UIViewController {
             chemInfo.text = "Europium has the chemical symbol Eu and is a silver-white metal with a pale yellow tint. At room temperature it is at solid state at room temperature. \n\nIt has a metallic bond with a melting point of 826ºC and a boiling point of 1529ºC. \n\nEuropium has a atomic number of 63 and a atomic mass of 152."
             chemImg.image = metalBond
             
-        case "gadolinium", "Gd":
+        case "gadolinium", "gd":
             chemName = "gadolinium"
             chemInfo.text = "Gadolinium has the chemical symbol Gd and is a silver-white metal. It is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1312ºC and a boiling point of 3000ºC. \n\nGadolinium has a atomic number of 64 and a atomic mass of 157."
+            chemImg.image = metalBond
+            
+        case "terbium", "tb":
+            chemName = "terbium"
+            chemInfo.text = "Terbium has the chemical symbol Tb and is a silvery-white metal and is a solid at room temperature. \n\nIt has a metallic bond with a melting point of 1356ºC and a boiling point of 3123ºC. \n\nTerbium has a atomic number of 65 and a atomic mass 159."
+            chemImg.image = metalBond
+            
+        case "dysprosium", "dy":
+            chemName = "dysprosium"
+            chemInfo.text = "Dysprosium has a chemical symbol Dy and is a metallic silver white solid at room temperature. \n\nIt has a metallic bond with a melting point of 1407ºC and a boiling point of 2562ºC. \n\nDysprosium has a atomiccc number of 66 and a atomic mass of 162.50."
+            chemImg.image = metalBond
+            
+        case "holmium", "ho":
+            chemName = "holmium"
+            chemInfo.text = "Holmium has a chemical symbol Ho and is a silvery-white metal and is a solid at room temperature. \n\nIt has a metallic bond with a melting point of 1461ºC and a boiling point of 2600ºC. \n\nHolmium has a atomic number of 67 and a atomic mass of 165."
+            chemImg.image = metalBond
+            
+        case "erbium", "er":
+            chemName = "erbium"
+            chemInfo.text = "Erbium has a chemical symbol Er and is a silvery-white metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1529ºC and a boiling point of 2868ºC \n\nErbium has a atomic number of 68 and a atomic mass of 169"
+            chemImg.image = metalBond
+            
+        case "thulium", "tm":
+            chemName = "thulium"
+            chemInfo.text = "Thulium has a chemical symbol Tm and is a silvery-white metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1545ºC and a boiling point of 1950ºC. \n\nThulium has a atomic number of 69 and a atomic mass of 169"
+            chemImg.image = metalBond
+            
+        case "ytterbium", "yb":
+            chemName = "ytterbium"
+            chemInfo.text = "Ytterbium has a chemical symbol Yb and is a silvery gray metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 824ºC and a boiling point of 1196ºC. \n\nYtterbium has a atomic number of 70 and a atomic mass of 173."
+            chemImg.image = metalBond
+            
+        case "lutetium", "lu":
+            chemName = "lutetium"
+            chemInfo.text = "lutetium has a chemical symbol Lu and is a silvery-white metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1652ºC and a boiling point of 3402ºC. \n\nLutetium has a atomic number of 71 and a atomic mass 175."
             chemImg.image = metalBond
             
             
@@ -672,9 +707,77 @@ class StructViewController: UIViewController {
             
         case "actinium", "ac":
             chemName = "actinium"
-            chemInfo.text = "Actinium has the chemmical symbol Ac and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1051°C and a boiling point of 3198°C. \n\nActinium has a atomic number of 89 and a atomic mass of (145)."
+            chemInfo.text = "Actinium has the chemical symbol Ac and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1051°C and a boiling point of 3198°C. \n\nActinium has a atomic number of 89 and a atomic mass of (145)."
             chemImg.image = metalBond
             
+        case "Thorium", "th":
+            chemName = "thorium"
+            chemInfo.text = "thorium has the chemical symbol Th and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1750°C and a boiling point of 4788°C. \n\nThorium has a atomic number of 90 and a atomic mass of 232."
+            chemImg.image = metalBond
+
+        case "Protactinium", "pa":
+            chemName = "protactinium"
+            chemInfo.text = "Protactinium has the chemical symbol Pa and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1568°C and a boiling point of 4027°C. \n\nActinium has a atomic number of 91 and a atomic mass of 231."
+            chemImg.image = metalBond
+            
+        case "uranium", "u":
+            chemName = "uranium"
+            chemInfo.text = "Uranium has the chemical symbol of just U and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1132ºC and a boiling point of 4131°C. \n\nUranium has a atomic number of 92 and a atomic mass of 238."
+            chemImg.image = metalBond
+
+        case "neptunium", "np":
+            chemName = "neptunium"
+            chemInfo.text = "Neptunium has the chemical symbol Np and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 639°C+-3 and a boiling point of 4174°C. \n\nActinium has a atomic number of 93 and a atomic mass of (237)."
+            chemImg.image = metalBond
+
+        case "plutonium", "pu":
+            chemName = "plutonium"
+            chemInfo.text = "Plutonium has the chemical symbol Pu and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 639°C and a boiling point of 3228°C. \n\nPlutonium has a atomic number of 94 and a atomic mass of (244)."
+            chemImg.image = metalBond
+            
+        case "americium", "am":
+            chemName = "americium"
+            chemInfo.text = "Americium has the chemical symbol Am and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1176°C and a boiling point of 2149°C. \n\nAmericium has a atomic number of 95 and a atomic mass of (243). \n\nThis is a patriotic element."
+            chemImg.image = metalBond
+     
+        case "curium", "cm":
+            chemName = "curium"
+            chemInfo.text = "curium has the chemical symbol Cm and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1340°C and a boiling point of 3110°C. \n\nCurium has a atomic number of 96 and a atomic mass of (247)."
+            chemImg.image = metalBond
+
+        case "berkelium", "bk":
+            chemName = "berkelium"
+            chemInfo.text = "Berkelium has the chemical symbol Bk and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 986°C and a boiling point of 2627°C. \n\nBerkelium has a atomic number of 97 and a atomic mass of (247)."
+            chemImg.image = metalBond
+            
+        case "californium", "cf":
+            chemName = "Californium has the chemical symbol Cf and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 900°C and a boiling point of 1470°C. \n\nCalifornium has a atomic number of 98 and a atomic mass of (251)."
+            chemImg.image = metalBond
+            
+        case "einsteinium", "es":
+            chemName = "einsteinium"
+            chemInfo.text = "einsteinium has the chemical symbol Es and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 860°C and a boiling point of 996°C. \n\nEinsteinium has a atomic number of 99 and a atomic mass of (252)."
+            chemImg.image = metalBond
+            
+        case "fermium", "fm":
+            chemName = "fermium"
+            chemInfo.text = "Fermium has the chemical symbol Fm and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1527°C and a unnknown boiling point. \n\nfermium has a atomic number of 100 and a atomic mass of (257)."
+            chemImg.image = metalBond
+            
+        case "mendelevium", "md":
+            chemName = "mendelevium"
+            chemInfo.text = "mendelevium has the chemical symbol Md and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 827°C and a unknon boiling point. \n\nMendelevium has a atomic number of 101 and a atomic mass of (258)."
+            chemImg.image = metalBond
+            
+        case "nobelium", "No":
+            chemName = "nobelium"
+            chemInfo.text = "Nobelium has the chemical symbol No and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 827°C and a unknown boiling point. \n\nobelim has a atomic number of 102 and a atomic mass of (259)."
+            chemImg.image = metalBond
+            
+        case "lawrencium", "Lr":
+            chemName = "lawrencium"
+            chemInfo.text = "Lawrencium has the chemical symbol Lr and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1627°C and an unknown boiling point. \n\nLawrencium has a atomic number of 103 and a atomic mass of (266)."
+            chemImg.image = metalBond
             
             //TODO: - FINISH ACTINOIDS
             
