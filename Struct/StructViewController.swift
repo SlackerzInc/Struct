@@ -5,6 +5,7 @@
 //  Created by Wong Hong Ngai on 19/8/18.
 //  Copyright © 2018 Wong Hong Ngai. All rights reserved.
 //
+//  This code is horrible don't read it
 
 import UIKit
 
