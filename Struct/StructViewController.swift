@@ -698,13 +698,12 @@ class StructViewController: UIViewController {
             
         case "lutetium", "lu":
             chemName = "lutetium"
-            chemInfo.text = "lutetium has a chemical symbol Lu and is a silvery-white metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1652ºC and a boiling point of 3402ºC. \n\nLutetium has a atomic number of 71 and a atomic mass 175."
+            chemInfo.text = "Lutetium has a chemical symbol Lu and is a silvery-white metal and is solid at room temperature. \n\nIt has a metallic bond with a melting point of 1652ºC and a boiling point of 3402ºC. \n\nLutetium has a atomic number of 71 and a atomic mass 175."
             chemImg.image = metalBond
             
             
-            //TODO: - FINISH LANTHANOIDS
             
-            //MARK: - ACTINOIDS - attempt 1
+            //MARK: - ACTINOIDS
             
         case "actinium", "ac":
             chemName = "actinium"
@@ -780,7 +779,6 @@ class StructViewController: UIViewController {
             chemInfo.text = "Lawrencium has the chemical symbol Lr and is a isolated radioactive element. At room temperature, it is solid. \n\nIt has a metallic bond with a melting point of 1627°C and an unknown boiling point. \n\nLawrencium has a atomic number of 103 and a atomic mass of (266)."
             chemImg.image = metalBond
             
-            //TODO: - FINISH ACTINOIDS
             
             
         
