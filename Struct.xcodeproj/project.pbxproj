@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36114D2221F2099800AF2693 /* test.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36114D2121F2099800AF2693 /* test.dae */; };
 		3675FC902129ACB5001402F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675FC8F2129ACB5001402F3 /* AppDelegate.swift */; };
 		3675FC922129ACB5001402F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675FC912129ACB5001402F3 /* ViewController.swift */; };
 		3675FC952129ACB5001402F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3675FC932129ACB5001402F3 /* Main.storyboard */; };
@@ -14,10 +15,12 @@
 		3675FC9A2129ACB6001402F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3675FC992129ACB6001402F3 /* Assets.xcassets */; };
 		3675FC9D2129ACB6001402F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3675FC9B2129ACB6001402F3 /* LaunchScreen.storyboard */; };
 		3675FCA52129B6D6001402F3 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675FCA42129B6D6001402F3 /* StructViewController.swift */; };
+		36C9F35B21F3103D000B31BD /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9F35A21F3103D000B31BD /* ModelViewController.swift */; };
 		36D85468212D45C90053E0E6 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D85467212D45C90053E0E6 /* CreditsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36114D2121F2099800AF2693 /* test.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = test.dae; sourceTree = "<group>"; };
 		3675FC8C2129ACB5001402F3 /* Struct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Struct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3675FC8F2129ACB5001402F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3675FC912129ACB5001402F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		3675FC9C2129ACB6001402F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3675FC9E2129ACB6001402F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3675FCA42129B6D6001402F3 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
+		36C9F35A21F3103D000B31BD /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		36D85467212D45C90053E0E6 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
@@ -64,11 +68,13 @@
 				3675FC912129ACB5001402F3 /* ViewController.swift */,
 				3675FCA42129B6D6001402F3 /* StructViewController.swift */,
 				36D85467212D45C90053E0E6 /* CreditsViewController.swift */,
+				36C9F35A21F3103D000B31BD /* ModelViewController.swift */,
 				3675FC932129ACB5001402F3 /* Main.storyboard */,
 				3675FC992129ACB6001402F3 /* Assets.xcassets */,
 				3675FC9B2129ACB6001402F3 /* LaunchScreen.storyboard */,
 				3675FC9E2129ACB6001402F3 /* Info.plist */,
 				3675FC962129ACB5001402F3 /* Struct.xcdatamodeld */,
+				36114D2121F2099800AF2693 /* test.dae */,
 			);
 			path = Struct;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36114D2221F2099800AF2693 /* test.dae in Resources */,
 				3675FC9D2129ACB6001402F3 /* LaunchScreen.storyboard in Resources */,
 				3675FC9A2129ACB6001402F3 /* Assets.xcassets in Resources */,
 				3675FC952129ACB5001402F3 /* Main.storyboard in Resources */,
@@ -147,6 +154,7 @@
 			files = (
 				3675FC922129ACB5001402F3 /* ViewController.swift in Sources */,
 				3675FCA52129B6D6001402F3 /* StructViewController.swift in Sources */,
+				36C9F35B21F3103D000B31BD /* ModelViewController.swift in Sources */,
 				3675FC902129ACB5001402F3 /* AppDelegate.swift in Sources */,
 				3675FC982129ACB5001402F3 /* Struct.xcdatamodeld in Sources */,
 				36D85468212D45C90053E0E6 /* CreditsViewController.swift in Sources */,

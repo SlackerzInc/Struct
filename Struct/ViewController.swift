@@ -43,6 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if let vc = segue.destination as? StructViewController {
             vc.finalName = self.nameText
         }
+        
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

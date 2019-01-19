@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R99-24-d3t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R99-24-d3t">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,7 +43,7 @@
                                     <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hS9-wa-RCQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pocket dictionary of substances in Chemistry" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKZ-9j-IVQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pocket dictionary of common substances in Chemistry" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKZ-9j-IVQ">
                                 <rect key="frame" x="16" y="335.33333333333331" width="343" height="40.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,17 +158,33 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ok-ky-UwC">
-                                <rect key="frame" x="16" y="412" width="343" height="28.666666666666686"/>
+                                <rect key="frame" x="16" y="412" width="343" height="29"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorum ipsum" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmz-z9-qN6">
-                                <rect key="frame" x="16" y="450.66666666666674" width="343" height="327.33333333333326"/>
+                                <rect key="frame" x="16" y="451" width="343" height="279"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8G-U2-5X7">
+                                <rect key="frame" x="16" y="738" width="343" height="40"/>
+                                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show 3D Molecule">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ModelBtn:" destination="v4H-M4-BEH" eventType="touchUpInside" id="h9Y-iy-vnk"/>
+                                    <segue destination="787-uf-691" kind="show" id="aDN-LU-HZU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -178,8 +194,12 @@
                             <constraint firstItem="nmz-z9-qN6" firstAttribute="top" secondItem="7ok-ky-UwC" secondAttribute="bottom" constant="10" id="AxC-I1-zQl"/>
                             <constraint firstItem="CZs-bw-vf3" firstAttribute="trailing" secondItem="7ok-ky-UwC" secondAttribute="trailing" constant="16" id="FX9-fr-keH"/>
                             <constraint firstItem="CZs-bw-vf3" firstAttribute="trailing" secondItem="nmz-z9-qN6" secondAttribute="trailing" constant="16" id="ITW-1o-gWy"/>
-                            <constraint firstItem="nmz-z9-qN6" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" id="jK4-wc-JHR"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="centerX" secondItem="nmz-z9-qN6" secondAttribute="centerX" id="SZ0-8a-gqn"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="top" secondItem="nmz-z9-qN6" secondAttribute="bottom" constant="8" id="cp1-Ll-NOC"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="leading" secondItem="CZs-bw-vf3" secondAttribute="leading" constant="16" id="dPE-sd-a1n"/>
+                            <constraint firstItem="nmz-z9-qN6" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" constant="-48" id="jK4-wc-JHR"/>
                             <constraint firstItem="7fB-ab-P1z" firstAttribute="top" secondItem="CZs-bw-vf3" secondAttribute="top" constant="18" id="kXX-Zu-fii"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" id="pFE-YJ-j9C"/>
                             <constraint firstItem="7ok-ky-UwC" firstAttribute="top" secondItem="7fB-ab-P1z" secondAttribute="bottom" constant="10" id="pTZ-e8-cYW"/>
                             <constraint firstItem="CZs-bw-vf3" firstAttribute="trailing" secondItem="7fB-ab-P1z" secondAttribute="trailing" constant="16" id="w5u-1Y-udP"/>
                         </constraints>
@@ -194,6 +214,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL5-Hx-YmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2021.5999999999999" y="131.52709359605913"/>
+        </scene>
+        <!--Model View Controller-->
+        <scene sceneID="fja-JX-yVr">
+            <objects>
+                <viewController id="787-uf-691" customClass="ModelViewController" customModule="Struct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHJ-Ld-AMm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wUK-N5-3jl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPp-Qf-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2944.8000000000002" y="131.52709359605913"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BX7-4h-9eI">
