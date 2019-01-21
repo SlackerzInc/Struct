@@ -42,9 +42,17 @@ class ModelViewController: UIViewController {
         //Adds lighting
         let lightNode = SCNNode()
         lightNode.light = SCNLight()
-        lightNode.light?.type = .ambient
+        lightNode.light?.type = .directional
+        lightNode.light?.intensity = 1500
         lightNode.position = SCNVector3(x:0,y:10,z:2)
         modelScene?.rootNode.addChildNode(lightNode)
+        
+        let lightNode2 = SCNNode()
+        lightNode2.light = SCNLight()
+        lightNode.light?.type = .directional
+        lightNode2.light?.intensity = 1500
+        lightNode2.position = SCNVector3(x:0,y:-20,z:0)
+        modelScene?.rootNode.addChildNode(lightNode2)
 
         /*
         //Important set-up
