@@ -170,7 +170,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8G-U2-5X7">
-                                <rect key="frame" x="16" y="738" width="343" height="40"/>
+                                <rect key="frame" x="8" y="738" width="359" height="32"/>
                                 <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Show 3D Molecule">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -196,10 +196,10 @@
                             <constraint firstItem="CZs-bw-vf3" firstAttribute="trailing" secondItem="nmz-z9-qN6" secondAttribute="trailing" constant="16" id="ITW-1o-gWy"/>
                             <constraint firstItem="B8G-U2-5X7" firstAttribute="centerX" secondItem="nmz-z9-qN6" secondAttribute="centerX" id="SZ0-8a-gqn"/>
                             <constraint firstItem="B8G-U2-5X7" firstAttribute="top" secondItem="nmz-z9-qN6" secondAttribute="bottom" constant="8" id="cp1-Ll-NOC"/>
-                            <constraint firstItem="B8G-U2-5X7" firstAttribute="leading" secondItem="CZs-bw-vf3" secondAttribute="leading" constant="16" id="dPE-sd-a1n"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="leading" secondItem="CZs-bw-vf3" secondAttribute="leading" constant="8" id="dPE-sd-a1n"/>
                             <constraint firstItem="nmz-z9-qN6" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" constant="-48" id="jK4-wc-JHR"/>
                             <constraint firstItem="7fB-ab-P1z" firstAttribute="top" secondItem="CZs-bw-vf3" secondAttribute="top" constant="18" id="kXX-Zu-fii"/>
-                            <constraint firstItem="B8G-U2-5X7" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" id="pFE-YJ-j9C"/>
+                            <constraint firstItem="B8G-U2-5X7" firstAttribute="bottom" secondItem="CZs-bw-vf3" secondAttribute="bottom" constant="-8" id="pFE-YJ-j9C"/>
                             <constraint firstItem="7ok-ky-UwC" firstAttribute="top" secondItem="7fB-ab-P1z" secondAttribute="bottom" constant="10" id="pTZ-e8-cYW"/>
                             <constraint firstItem="CZs-bw-vf3" firstAttribute="trailing" secondItem="7fB-ab-P1z" secondAttribute="trailing" constant="16" id="w5u-1Y-udP"/>
                         </constraints>

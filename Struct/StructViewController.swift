@@ -901,8 +901,6 @@ class StructViewController: UIViewController {
             
             
             
-            
-            
             //MARK: - NOBLE GASES
             
         case "helium", "he":
@@ -935,14 +933,16 @@ class StructViewController: UIViewController {
             chemImg.image = UIImage(named: chemName)
             
             
-            
-            
-            
         default:
             chemInfo.text = "Currently unavailable, please check input or try again later"
             chemImg.image = noimg
        
         }
+        
+        if (nameLabel.text?.lowercased())!.replacingOccurrences(of: " ", with: "") != chemName {
+            nameLabel.text = chemName.uppercased()
+        }
+        
     }
 
 }

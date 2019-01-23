@@ -14,9 +14,10 @@ class ModelViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let modelScene = SCNScene(named: "test.dae")
         let ScreenSize: CGRect = UIScreen.main.bounds
         let modelView = SCNView(frame: CGRect(x: 0, y: 0, width: ScreenSize.width, height: ScreenSize.height))
-        let modelScene = SCNScene(named: "test.dae")
+
         
         //Adds modelView as a subview into the ViewController
         self.view.addSubview(modelView)
