@@ -944,5 +944,11 @@ class StructViewController: UIViewController {
         }
         
     }
-
+    
+    //Sends chemName to the ModelViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let modelVC = segue.destination as? ModelViewController {
+            modelVC.ModelName = self.chemName
+        }
+    }
 }

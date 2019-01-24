@@ -10,11 +10,13 @@ import UIKit
 import SceneKit
 
 class ModelViewController: UIViewController {
+    
+    var ModelName = "".lowercased()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let modelScene = SCNScene(named: "test.dae")
+        let modelScene = SCNScene(named: ModelName + ".dae")
         let ScreenSize: CGRect = UIScreen.main.bounds
         let modelView = SCNView(frame: CGRect(x: 0, y: 0, width: ScreenSize.width, height: ScreenSize.height))
 
@@ -55,35 +57,6 @@ class ModelViewController: UIViewController {
         lightNode2.position = SCNVector3(x:0,y:-20,z:0)
         modelScene?.rootNode.addChildNode(lightNode2)
 
-        /*
-        //Important set-up
-        let scene = SCNScene(named: "test.dae")
-        
-        let sceneView = self.view as! SCNView
-        sceneView.scene = scene
-        
-        //Show statistics at the bottom of the screen
-        sceneView.showsStatistics = true
-        
-        //Changes colour of the background
-        sceneView.backgroundColor = UIColor.black
-        
-        //Enables camera control
-        sceneView.allowsCameraControl = true
-        
-        //Creates a camaera node to enable it to see the molecule
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        cameraNode.position = SCNVector3(x:0, y:0, z:100)
-        scene?.rootNode.addChildNode(cameraNode)
-        
-        //Adds lighting to enable user to see the molecule
-        let lightNode = SCNNode()
-        lightNode.light = SCNLight()
-        lightNode.light?.type = .ambient
-        lightNode.position = SCNVector3(x:0, y:10, z:2)
-        scene?.rootNode.addChildNode(lightNode)
-        */
     }
 
 }
