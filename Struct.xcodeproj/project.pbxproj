@@ -16,6 +16,50 @@
 		3675FCA52129B6D6001402F3 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675FCA42129B6D6001402F3 /* StructViewController.swift */; };
 		36C9F35B21F3103D000B31BD /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9F35A21F3103D000B31BD /* ModelViewController.swift */; };
 		36D85468212D45C90053E0E6 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D85467212D45C90053E0E6 /* CreditsViewController.swift */; };
+		36FB819821FDC394009A1C14 /* iron(iii)chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB816C21FDC387009A1C14 /* iron(iii)chloride.dae */; };
+		36FB819921FDC394009A1C14 /* iron(ii)sulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB816D21FDC387009A1C14 /* iron(ii)sulfate.dae */; };
+		36FB819A21FDC394009A1C14 /* antimony.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB816E21FDC387009A1C14 /* antimony.dae */; };
+		36FB819B21FDC394009A1C14 /* sodiumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB816F21FDC387009A1C14 /* sodiumchloride.dae */; };
+		36FB819C21FDC394009A1C14 /* zincoxide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817021FDC388009A1C14 /* zincoxide.dae */; };
+		36FB819D21FDC394009A1C14 /* calciumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817121FDC388009A1C14 /* calciumsulfate.dae */; };
+		36FB819E21FDC394009A1C14 /* water.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817221FDC388009A1C14 /* water.dae */; };
+		36FB819F21FDC394009A1C14 /* lead(ii)sulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817321FDC388009A1C14 /* lead(ii)sulfate.dae */; };
+		36FB81A021FDC394009A1C14 /* calciumnitrate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817421FDC389009A1C14 /* calciumnitrate.dae */; };
+		36FB81A121FDC394009A1C14 /* ammoniumnitrate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817521FDC389009A1C14 /* ammoniumnitrate.dae */; };
+		36FB81A221FDC394009A1C14 /* aluminiumoxide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817621FDC389009A1C14 /* aluminiumoxide.dae */; };
+		36FB81A321FDC394009A1C14 /* carbon.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817721FDC389009A1C14 /* carbon.dae */; };
+		36FB81A421FDC394009A1C14 /* aluminiumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817821FDC38A009A1C14 /* aluminiumsulfate.dae */; };
+		36FB81A521FDC394009A1C14 /* bariumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817921FDC38A009A1C14 /* bariumsulfate.dae */; };
+		36FB81A621FDC394009A1C14 /* bariumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817A21FDC38A009A1C14 /* bariumchloride.dae */; };
+		36FB81A721FDC394009A1C14 /* calciumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817B21FDC38A009A1C14 /* calciumchloride.dae */; };
+		36FB81A821FDC394009A1C14 /* magnessiumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817C21FDC38A009A1C14 /* magnessiumchloride.dae */; };
+		36FB81A921FDC394009A1C14 /* silicon.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817D21FDC38B009A1C14 /* silicon.dae */; };
+		36FB81AA21FDC394009A1C14 /* silversulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817E21FDC38B009A1C14 /* silversulfate.dae */; };
+		36FB81AB21FDC394009A1C14 /* iron(iii)sulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB817F21FDC38B009A1C14 /* iron(iii)sulfate.dae */; };
+		36FB81AC21FDC394009A1C14 /* lead(ii)carbonate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818021FDC38B009A1C14 /* lead(ii)carbonate.dae */; };
+		36FB81AD21FDC394009A1C14 /* germanium.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818121FDC38C009A1C14 /* germanium.dae */; };
+		36FB81AE21FDC394009A1C14 /* copper(ii)nitrate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818221FDC38C009A1C14 /* copper(ii)nitrate.dae */; };
+		36FB81AF21FDC394009A1C14 /* lead(ii)oxide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818321FDC38C009A1C14 /* lead(ii)oxide.dae */; };
+		36FB81B021FDC394009A1C14 /* iron(ii)chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818421FDC38C009A1C14 /* iron(ii)chloride.dae */; };
+		36FB81B121FDC394009A1C14 /* aluminiumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818521FDC38D009A1C14 /* aluminiumchloride.dae */; };
+		36FB81B221FDC394009A1C14 /* potassiumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818621FDC38D009A1C14 /* potassiumsulfate.dae */; };
+		36FB81B321FDC394009A1C14 /* potassiumcarbonate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818721FDC38D009A1C14 /* potassiumcarbonate.dae */; };
+		36FB81B421FDC394009A1C14 /* silvercarbonate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818821FDC38E009A1C14 /* silvercarbonate.dae */; };
+		36FB81B521FDC394009A1C14 /* zincchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818921FDC38E009A1C14 /* zincchloride.dae */; };
+		36FB81B621FDC394009A1C14 /* zincsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818A21FDC38E009A1C14 /* zincsulfate.dae */; };
+		36FB81B721FDC394009A1C14 /* tellurium.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818B21FDC38F009A1C14 /* tellurium.dae */; };
+		36FB81B821FDC394009A1C14 /* copper(ii)sulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818C21FDC38F009A1C14 /* copper(ii)sulfate.dae */; };
+		36FB81B921FDC394009A1C14 /* silverchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818D21FDC38F009A1C14 /* silverchloride.dae */; };
+		36FB81BA21FDC394009A1C14 /* magnesiumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818E21FDC390009A1C14 /* magnesiumsulfate.dae */; };
+		36FB81BB21FDC394009A1C14 /* boron.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB818F21FDC390009A1C14 /* boron.dae */; };
+		36FB81BC21FDC394009A1C14 /* silvernitrate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819021FDC391009A1C14 /* silvernitrate.dae */; };
+		36FB81BD21FDC394009A1C14 /* lead(ii)chloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819121FDC391009A1C14 /* lead(ii)chloride.dae */; };
+		36FB81BE21FDC394009A1C14 /* sodiumnitrate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819221FDC392009A1C14 /* sodiumnitrate.dae */; };
+		36FB81BF21FDC394009A1C14 /* sodiumsulfate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819321FDC392009A1C14 /* sodiumsulfate.dae */; };
+		36FB81C021FDC394009A1C14 /* lead(iv)oxide.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819421FDC393009A1C14 /* lead(iv)oxide.dae */; };
+		36FB81C121FDC394009A1C14 /* arsenic.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819521FDC393009A1C14 /* arsenic.dae */; };
+		36FB81C221FDC394009A1C14 /* potassiumchloride.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819621FDC393009A1C14 /* potassiumchloride.dae */; };
+		36FB81C321FDC394009A1C14 /* bariumcarbonate.dae in Resources */ = {isa = PBXBuildFile; fileRef = 36FB819721FDC393009A1C14 /* bariumcarbonate.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +74,50 @@
 		3675FCA42129B6D6001402F3 /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		36C9F35A21F3103D000B31BD /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		36D85467212D45C90053E0E6 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		36FB816C21FDC387009A1C14 /* iron(iii)chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "iron(iii)chloride.dae"; sourceTree = "<group>"; };
+		36FB816D21FDC387009A1C14 /* iron(ii)sulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "iron(ii)sulfate.dae"; sourceTree = "<group>"; };
+		36FB816E21FDC387009A1C14 /* antimony.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = antimony.dae; sourceTree = "<group>"; };
+		36FB816F21FDC387009A1C14 /* sodiumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sodiumchloride.dae; sourceTree = "<group>"; };
+		36FB817021FDC388009A1C14 /* zincoxide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = zincoxide.dae; sourceTree = "<group>"; };
+		36FB817121FDC388009A1C14 /* calciumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = calciumsulfate.dae; sourceTree = "<group>"; };
+		36FB817221FDC388009A1C14 /* water.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = water.dae; sourceTree = "<group>"; };
+		36FB817321FDC388009A1C14 /* lead(ii)sulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "lead(ii)sulfate.dae"; sourceTree = "<group>"; };
+		36FB817421FDC389009A1C14 /* calciumnitrate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = calciumnitrate.dae; sourceTree = "<group>"; };
+		36FB817521FDC389009A1C14 /* ammoniumnitrate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = ammoniumnitrate.dae; sourceTree = "<group>"; };
+		36FB817621FDC389009A1C14 /* aluminiumoxide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aluminiumoxide.dae; sourceTree = "<group>"; };
+		36FB817721FDC389009A1C14 /* carbon.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = carbon.dae; sourceTree = "<group>"; };
+		36FB817821FDC38A009A1C14 /* aluminiumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aluminiumsulfate.dae; sourceTree = "<group>"; };
+		36FB817921FDC38A009A1C14 /* bariumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bariumsulfate.dae; sourceTree = "<group>"; };
+		36FB817A21FDC38A009A1C14 /* bariumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bariumchloride.dae; sourceTree = "<group>"; };
+		36FB817B21FDC38A009A1C14 /* calciumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = calciumchloride.dae; sourceTree = "<group>"; };
+		36FB817C21FDC38A009A1C14 /* magnessiumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = magnessiumchloride.dae; sourceTree = "<group>"; };
+		36FB817D21FDC38B009A1C14 /* silicon.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = silicon.dae; sourceTree = "<group>"; };
+		36FB817E21FDC38B009A1C14 /* silversulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = silversulfate.dae; sourceTree = "<group>"; };
+		36FB817F21FDC38B009A1C14 /* iron(iii)sulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "iron(iii)sulfate.dae"; sourceTree = "<group>"; };
+		36FB818021FDC38B009A1C14 /* lead(ii)carbonate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "lead(ii)carbonate.dae"; sourceTree = "<group>"; };
+		36FB818121FDC38C009A1C14 /* germanium.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = germanium.dae; sourceTree = "<group>"; };
+		36FB818221FDC38C009A1C14 /* copper(ii)nitrate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "copper(ii)nitrate.dae"; sourceTree = "<group>"; };
+		36FB818321FDC38C009A1C14 /* lead(ii)oxide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "lead(ii)oxide.dae"; sourceTree = "<group>"; };
+		36FB818421FDC38C009A1C14 /* iron(ii)chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "iron(ii)chloride.dae"; sourceTree = "<group>"; };
+		36FB818521FDC38D009A1C14 /* aluminiumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aluminiumchloride.dae; sourceTree = "<group>"; };
+		36FB818621FDC38D009A1C14 /* potassiumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = potassiumsulfate.dae; sourceTree = "<group>"; };
+		36FB818721FDC38D009A1C14 /* potassiumcarbonate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = potassiumcarbonate.dae; sourceTree = "<group>"; };
+		36FB818821FDC38E009A1C14 /* silvercarbonate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = silvercarbonate.dae; sourceTree = "<group>"; };
+		36FB818921FDC38E009A1C14 /* zincchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = zincchloride.dae; sourceTree = "<group>"; };
+		36FB818A21FDC38E009A1C14 /* zincsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = zincsulfate.dae; sourceTree = "<group>"; };
+		36FB818B21FDC38F009A1C14 /* tellurium.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tellurium.dae; sourceTree = "<group>"; };
+		36FB818C21FDC38F009A1C14 /* copper(ii)sulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "copper(ii)sulfate.dae"; sourceTree = "<group>"; };
+		36FB818D21FDC38F009A1C14 /* silverchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = silverchloride.dae; sourceTree = "<group>"; };
+		36FB818E21FDC390009A1C14 /* magnesiumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = magnesiumsulfate.dae; sourceTree = "<group>"; };
+		36FB818F21FDC390009A1C14 /* boron.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = boron.dae; sourceTree = "<group>"; };
+		36FB819021FDC391009A1C14 /* silvernitrate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = silvernitrate.dae; sourceTree = "<group>"; };
+		36FB819121FDC391009A1C14 /* lead(ii)chloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "lead(ii)chloride.dae"; sourceTree = "<group>"; };
+		36FB819221FDC392009A1C14 /* sodiumnitrate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sodiumnitrate.dae; sourceTree = "<group>"; };
+		36FB819321FDC392009A1C14 /* sodiumsulfate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sodiumsulfate.dae; sourceTree = "<group>"; };
+		36FB819421FDC393009A1C14 /* lead(iv)oxide.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "lead(iv)oxide.dae"; sourceTree = "<group>"; };
+		36FB819521FDC393009A1C14 /* arsenic.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = arsenic.dae; sourceTree = "<group>"; };
+		36FB819621FDC393009A1C14 /* potassiumchloride.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = potassiumchloride.dae; sourceTree = "<group>"; };
+		36FB819721FDC393009A1C14 /* bariumcarbonate.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = bariumcarbonate.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +136,50 @@
 			children = (
 				3675FC8E2129ACB5001402F3 /* Struct */,
 				3675FC8D2129ACB5001402F3 /* Products */,
+				36FB818521FDC38D009A1C14 /* aluminiumchloride.dae */,
+				36FB817621FDC389009A1C14 /* aluminiumoxide.dae */,
+				36FB817821FDC38A009A1C14 /* aluminiumsulfate.dae */,
+				36FB817521FDC389009A1C14 /* ammoniumnitrate.dae */,
+				36FB816E21FDC387009A1C14 /* antimony.dae */,
+				36FB819521FDC393009A1C14 /* arsenic.dae */,
+				36FB819721FDC393009A1C14 /* bariumcarbonate.dae */,
+				36FB817A21FDC38A009A1C14 /* bariumchloride.dae */,
+				36FB817921FDC38A009A1C14 /* bariumsulfate.dae */,
+				36FB818F21FDC390009A1C14 /* boron.dae */,
+				36FB817B21FDC38A009A1C14 /* calciumchloride.dae */,
+				36FB817421FDC389009A1C14 /* calciumnitrate.dae */,
+				36FB817121FDC388009A1C14 /* calciumsulfate.dae */,
+				36FB817721FDC389009A1C14 /* carbon.dae */,
+				36FB818221FDC38C009A1C14 /* copper(ii)nitrate.dae */,
+				36FB818C21FDC38F009A1C14 /* copper(ii)sulfate.dae */,
+				36FB818121FDC38C009A1C14 /* germanium.dae */,
+				36FB818421FDC38C009A1C14 /* iron(ii)chloride.dae */,
+				36FB816D21FDC387009A1C14 /* iron(ii)sulfate.dae */,
+				36FB816C21FDC387009A1C14 /* iron(iii)chloride.dae */,
+				36FB817F21FDC38B009A1C14 /* iron(iii)sulfate.dae */,
+				36FB818021FDC38B009A1C14 /* lead(ii)carbonate.dae */,
+				36FB819121FDC391009A1C14 /* lead(ii)chloride.dae */,
+				36FB818321FDC38C009A1C14 /* lead(ii)oxide.dae */,
+				36FB817321FDC388009A1C14 /* lead(ii)sulfate.dae */,
+				36FB819421FDC393009A1C14 /* lead(iv)oxide.dae */,
+				36FB818E21FDC390009A1C14 /* magnesiumsulfate.dae */,
+				36FB817C21FDC38A009A1C14 /* magnessiumchloride.dae */,
+				36FB818721FDC38D009A1C14 /* potassiumcarbonate.dae */,
+				36FB819621FDC393009A1C14 /* potassiumchloride.dae */,
+				36FB818621FDC38D009A1C14 /* potassiumsulfate.dae */,
+				36FB817D21FDC38B009A1C14 /* silicon.dae */,
+				36FB818821FDC38E009A1C14 /* silvercarbonate.dae */,
+				36FB818D21FDC38F009A1C14 /* silverchloride.dae */,
+				36FB819021FDC391009A1C14 /* silvernitrate.dae */,
+				36FB817E21FDC38B009A1C14 /* silversulfate.dae */,
+				36FB816F21FDC387009A1C14 /* sodiumchloride.dae */,
+				36FB819221FDC392009A1C14 /* sodiumnitrate.dae */,
+				36FB819321FDC392009A1C14 /* sodiumsulfate.dae */,
+				36FB818B21FDC38F009A1C14 /* tellurium.dae */,
+				36FB817221FDC388009A1C14 /* water.dae */,
+				36FB818921FDC38E009A1C14 /* zincchloride.dae */,
+				36FB817021FDC388009A1C14 /* zincoxide.dae */,
+				36FB818A21FDC38E009A1C14 /* zincsulfate.dae */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,8 +268,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				3675FC9D2129ACB6001402F3 /* LaunchScreen.storyboard in Resources */,
+				36FB81A421FDC394009A1C14 /* aluminiumsulfate.dae in Resources */,
 				3675FC9A2129ACB6001402F3 /* Assets.xcassets in Resources */,
+				36FB81BE21FDC394009A1C14 /* sodiumnitrate.dae in Resources */,
+				36FB81C121FDC394009A1C14 /* arsenic.dae in Resources */,
+				36FB819C21FDC394009A1C14 /* zincoxide.dae in Resources */,
+				36FB81A621FDC394009A1C14 /* bariumchloride.dae in Resources */,
+				36FB81A821FDC394009A1C14 /* magnessiumchloride.dae in Resources */,
+				36FB81A321FDC394009A1C14 /* carbon.dae in Resources */,
+				36FB81C321FDC394009A1C14 /* bariumcarbonate.dae in Resources */,
+				36FB81AB21FDC394009A1C14 /* iron(iii)sulfate.dae in Resources */,
+				36FB81AF21FDC394009A1C14 /* lead(ii)oxide.dae in Resources */,
 				3675FC952129ACB5001402F3 /* Main.storyboard in Resources */,
+				36FB81AA21FDC394009A1C14 /* silversulfate.dae in Resources */,
+				36FB81B221FDC394009A1C14 /* potassiumsulfate.dae in Resources */,
+				36FB81B321FDC394009A1C14 /* potassiumcarbonate.dae in Resources */,
+				36FB81BC21FDC394009A1C14 /* silvernitrate.dae in Resources */,
+				36FB819B21FDC394009A1C14 /* sodiumchloride.dae in Resources */,
+				36FB819F21FDC394009A1C14 /* lead(ii)sulfate.dae in Resources */,
+				36FB81B421FDC394009A1C14 /* silvercarbonate.dae in Resources */,
+				36FB819A21FDC394009A1C14 /* antimony.dae in Resources */,
+				36FB81BF21FDC394009A1C14 /* sodiumsulfate.dae in Resources */,
+				36FB819E21FDC394009A1C14 /* water.dae in Resources */,
+				36FB81BA21FDC394009A1C14 /* magnesiumsulfate.dae in Resources */,
+				36FB81A721FDC394009A1C14 /* calciumchloride.dae in Resources */,
+				36FB81A521FDC394009A1C14 /* bariumsulfate.dae in Resources */,
+				36FB81C021FDC394009A1C14 /* lead(iv)oxide.dae in Resources */,
+				36FB81AE21FDC394009A1C14 /* copper(ii)nitrate.dae in Resources */,
+				36FB81B821FDC394009A1C14 /* copper(ii)sulfate.dae in Resources */,
+				36FB81A221FDC394009A1C14 /* aluminiumoxide.dae in Resources */,
+				36FB819D21FDC394009A1C14 /* calciumsulfate.dae in Resources */,
+				36FB81C221FDC394009A1C14 /* potassiumchloride.dae in Resources */,
+				36FB81AD21FDC394009A1C14 /* germanium.dae in Resources */,
+				36FB81BD21FDC394009A1C14 /* lead(ii)chloride.dae in Resources */,
+				36FB81B121FDC394009A1C14 /* aluminiumchloride.dae in Resources */,
+				36FB81B721FDC394009A1C14 /* tellurium.dae in Resources */,
+				36FB81B521FDC394009A1C14 /* zincchloride.dae in Resources */,
+				36FB81B021FDC394009A1C14 /* iron(ii)chloride.dae in Resources */,
+				36FB81A121FDC394009A1C14 /* ammoniumnitrate.dae in Resources */,
+				36FB819821FDC394009A1C14 /* iron(iii)chloride.dae in Resources */,
+				36FB819921FDC394009A1C14 /* iron(ii)sulfate.dae in Resources */,
+				36FB81B921FDC394009A1C14 /* silverchloride.dae in Resources */,
+				36FB81AC21FDC394009A1C14 /* lead(ii)carbonate.dae in Resources */,
+				36FB81BB21FDC394009A1C14 /* boron.dae in Resources */,
+				36FB81A021FDC394009A1C14 /* calciumnitrate.dae in Resources */,
+				36FB81A921FDC394009A1C14 /* silicon.dae in Resources */,
+				36FB81B621FDC394009A1C14 /* zincsulfate.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
