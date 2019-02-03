@@ -129,7 +129,7 @@ class StructViewController: UIViewController {
             chemImg.image = UIImage(named: chemName)
             
         case "silverchloride":
-            chemInfo.text = "Silver Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is AgCl"
+            chemInfo.text = "Silver Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is insoluble in water. \n\nIts chemical formula is AgCl"
             chemImg.image = UIImage(named: chemName)
             
         case "zincchloride":
