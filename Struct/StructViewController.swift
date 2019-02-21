@@ -376,7 +376,7 @@ class StructViewController: UIViewController {
             chemImg.image = metalBond
             
         case "cobalt", "Co":
-            chemName = "vanadium"
+            chemName = "cobalt"
             chemInfo.text = "Cobalt has the chemical symbol of Co and is a hard, lustrous and silver-grey metal in its solid state at room temperature. \n\nIt has a metallic bond with a melting point of 1495°C and a boiling point of 2927°C. \n\nCobalt has an atomic number of 27 and an atomic mass of 59."
             chemImg.image = metalBond
             
