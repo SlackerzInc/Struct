@@ -96,8 +96,8 @@ class StructViewController: UIViewController {
             chemInfo.text = "Sodium Chloride, also known as table salt, is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is NaCl"
             chemImg.image = UIImage(named: chemName)
             
-        case "potasiumchloride":
-            chemInfo.text = "Potassium Carbonate is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is KCl"
+        case "potassiumchloride":
+            chemInfo.text = "Potassium Chloride is white in colour in its solid state at room temperature. \n\nIt has an ionic bond and is soluble in water. \n\nIts chemical formula is KCl"
             chemImg.image = UIImage(named: chemName)
             
         case "ammoniumchloride":
