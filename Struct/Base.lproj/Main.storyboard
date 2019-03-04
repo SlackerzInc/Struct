@@ -25,12 +25,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svj-Dy-7c6">
-                                <rect key="frame" x="122" y="441" width="131" height="40"/>
-                                <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="16" y="441" width="343" height="40"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.33725490196078434" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="HW2-7o-SOx"/>
-                                    <constraint firstAttribute="width" constant="131" id="RMw-4t-Q9z"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Search">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -43,23 +43,24 @@
                                     <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hS9-wa-RCQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pocket dictionary of common substances used in Chemistry in SST" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKZ-9j-IVQ">
-                                <rect key="frame" x="16" y="335.33333333333331" width="343" height="40.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pocket dictionary of common substances used in Chemistry in SST" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKZ-9j-IVQ">
+                                <rect key="frame" x="16" y="327" width="343" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IEh-Pc-IE0" secondAttribute="trailing" constant="16" id="6QR-Tz-1Ff"/>
                             <constraint firstItem="IEh-Pc-IE0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7I3-F8-WbN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iKZ-9j-IVQ" secondAttribute="trailing" constant="16" id="CJU-UP-txa"/>
-                            <constraint firstItem="IEh-Pc-IE0" firstAttribute="top" secondItem="iKZ-9j-IVQ" secondAttribute="bottom" constant="15" id="K88-9w-KN2"/>
+                            <constraint firstItem="svj-Dy-7c6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9s1-JQ-a46"/>
                             <constraint firstItem="svj-Dy-7c6" firstAttribute="top" secondItem="IEh-Pc-IE0" secondAttribute="bottom" constant="20" id="KIk-YH-cjh"/>
                             <constraint firstItem="svj-Dy-7c6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UMS-8T-tMb"/>
-                            <constraint firstItem="iKZ-9j-IVQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WIs-qy-aPS"/>
                             <constraint firstItem="IEh-Pc-IE0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cef-ZS-x54"/>
+                            <constraint firstItem="iKZ-9j-IVQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ho8-Lv-NNb"/>
+                            <constraint firstItem="IEh-Pc-IE0" firstAttribute="top" secondItem="iKZ-9j-IVQ" secondAttribute="bottom" constant="16" id="ngS-wj-5qf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iKZ-9j-IVQ" secondAttribute="trailing" constant="16" id="vI8-CH-kA7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -116,7 +117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kgY-1V-FqG" firstAttribute="trailing" secondItem="EU8-iy-cNK" secondAttribute="trailing" constant="16" id="0c9-OF-Y5M"/>
                             <constraint firstItem="KP6-BT-ZbT" firstAttribute="bottom" secondItem="kgY-1V-FqG" secondAttribute="bottom" constant="5" id="1eG-XZ-170"/>
@@ -186,7 +187,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nmz-z9-qN6" firstAttribute="leading" secondItem="CZs-bw-vf3" secondAttribute="leading" constant="16" id="2aH-5M-eZf"/>
                             <constraint firstItem="7fB-ab-P1z" firstAttribute="leading" secondItem="CZs-bw-vf3" secondAttribute="leading" constant="16" id="6qc-kJ-rJg"/>
